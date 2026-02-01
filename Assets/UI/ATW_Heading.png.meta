@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8dfb801897d8a4abeb60f3ba022d1973
+guid: b3d8a4f5be7a94bceaf7cbc103bf11f0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6849279963383999122
-    second: ATW_Button1_0
+      213: 3266614086083052766
+    second: ChatGPT Image Feb 1, 2026, 11_14_42 PM_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ATW_Button1_0
+      name: ChatGPT Image Feb 1, 2026, 11_14_42 PM_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 235
-        width: 1024
-        height: 546
+        x: 63
+        y: 308
+        width: 1414
+        height: 455
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 350, y: 274, z: 350, w: 111}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 29a24b076d78d0f50800000000000000
-      internalID: 6849279963383999122
+      spriteID: ed4844b3438555d20800000000000000
+      internalID: 3266614086083052766
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3d5c99c8f9cc34a7cad928a23f486a9c
+    spriteID: bd9117e8bd80f4ef2aa344d37e356ac4
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ATW_Button1_0: 6849279963383999122
+      ChatGPT Image Feb 1, 2026, 11_14_42 PM_0: 3266614086083052766
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

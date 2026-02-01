@@ -129,12 +129,12 @@ TextureImporter:
       name: ATW_Buttons_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 1024
+        x: 29
+        y: 670
+        width: 472
+        height: 241
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -147,11 +147,99 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: ATW_Buttons_1
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 672
+        width: 475
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b850994a3334518aed0ed6eb780bc7
+      internalID: -641867213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATW_Buttons_2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 393
+        width: 472
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 676d8aa34a7ce4c10936db66a6a170f9
+      internalID: -699520400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATW_Buttons_3
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 391
+        width: 470
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50499cc377ff14917801aa0e2d2843dd
+      internalID: 1369683511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ATW_Buttons_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 102
+        width: 499
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d00c678892dd49b2ad746cd4a020027
+      internalID: -1951650286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 93972478c82de475a8c48d27316f31ba
     internalID: 0
     vertices: []
     indices: 
@@ -162,6 +250,10 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       ATW_Buttons_0: 8991823322182440493
+      ATW_Buttons_1: -641867213
+      ATW_Buttons_2: -699520400
+      ATW_Buttons_3: 1369683511
+      ATW_Buttons_4: -1951650286
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
