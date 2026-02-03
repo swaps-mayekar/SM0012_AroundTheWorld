@@ -16,6 +16,7 @@ namespace AroundTheWorld
         [SerializeField] private Sprite[] flagSprites;
         [SerializeField] private bool loadFlagsFromResources = true;
         [SerializeField] private string resourcesFlagsPath = "Flags";
+        [SerializeField] private bool useContinentSubfolder = true;
 
         [Header("UI")]
         [SerializeField] private Image flagImage;
@@ -42,6 +43,8 @@ namespace AroundTheWorld
         private int _correctCount;
         private int _answeredCount;
         private Coroutine _feedbackRoutine;
+        private string[] _currentOptions = Array.Empty<string>();
+        private int _currentCorrectIndex = -1;
 
         private void Awake()
         {
@@ -59,6 +62,7 @@ namespace AroundTheWorld
 
         public void SelectOption(int optionIndex)
         {
+            Debug.Log("SelectOption: " + optionIndex);
             if (optionIndex < 0 || optionIndex >= optionButtons.Length)
             {
                 return;
@@ -67,6 +71,7 @@ namespace AroundTheWorld
             _selectedOptionIndex = optionIndex;
             UpdateOptionColors();
             UpdateSubmitInteractivity();
+            SubmitAnswer();
         }
 
         public void SubmitAnswer()
@@ -77,14 +82,14 @@ namespace AroundTheWorld
             }
 
             var question = _questions[_currentQuestionIndex];
-            bool isCorrect = _selectedOptionIndex == question.correctOptionIndex;
+            bool isCorrect = _selectedOptionIndex == _currentCorrectIndex;
             if (isCorrect)
             {
                 _correctCount++;
             }
 
             _answeredCount++;
-            ShowFeedback(isCorrect, question);
+            ShowFeedback(isCorrect);
             UpdateScoreUI();
 
             _currentQuestionIndex++;
@@ -186,7 +191,32 @@ namespace AroundTheWorld
 
             var question = _questions[_currentQuestionIndex];
             UpdateFlagImage(question.flagImageName);
-            UpdateOptions(question.options);
+            PrepareAndShowOptions(question);
+        }
+
+        private void PrepareAndShowOptions(FlagQuestion question)
+        {
+            if (question == null || question.options == null || question.options.Length == 0)
+            {
+                _currentOptions = Array.Empty<string>();
+                _currentCorrectIndex = -1;
+                UpdateOptions(_currentOptions);
+                return;
+            }
+
+            var shuffledOptions = new List<string>(question.options);
+            for (int i = 0; i < shuffledOptions.Count; i++)
+            {
+                int j = UnityEngine.Random.Range(i, shuffledOptions.Count);
+                string temp = shuffledOptions[i];
+                shuffledOptions[i] = shuffledOptions[j];
+                shuffledOptions[j] = temp;
+            }
+
+            string correctOption = question.options[Mathf.Clamp(question.correctOptionIndex, 0, question.options.Length - 1)];
+            _currentOptions = shuffledOptions.ToArray();
+            _currentCorrectIndex = shuffledOptions.IndexOf(correctOption);
+            UpdateOptions(_currentOptions);
         }
 
         private void UpdateFlagImage(string flagImageName)
@@ -202,7 +232,8 @@ namespace AroundTheWorld
                 return;
             }
 
-            if (_flagSpriteLookup.TryGetValue(flagImageName, out var sprite))
+            string normalizedName = flagImageName.Trim();
+            if (_flagSpriteLookup.TryGetValue(normalizedName, out var sprite))
             {
                 flagImage.sprite = sprite;
                 flagImage.enabled = true;
@@ -216,9 +247,9 @@ namespace AroundTheWorld
 
         private void UpdateOptions(string[] options)
         {
-            if (options == null || options.Length == 0)
+            if (options == null)
             {
-                return;
+                options = Array.Empty<string>();
             }
 
             for (int i = 0; i < optionButtons.Length; i++)
@@ -261,7 +292,17 @@ namespace AroundTheWorld
             _flagSpriteLookup.Clear();
             if (loadFlagsFromResources)
             {
-                var resourceSprites = Resources.LoadAll<Sprite>(resourcesFlagsPath);
+                string loadPath = resourcesFlagsPath;
+                if (useContinentSubfolder)
+                {
+                    string continent = GetSelectedContinentName();
+                    if (!string.IsNullOrWhiteSpace(continent))
+                    {
+                        loadPath = resourcesFlagsPath + "/" + continent;
+                    }
+                }
+
+                var resourceSprites = Resources.LoadAll<Sprite>(loadPath);
                 AddSpritesToLookup(resourceSprites);
             }
 
@@ -330,14 +371,14 @@ namespace AroundTheWorld
                 .ToLowerInvariant();
         }
 
-        private void ShowFeedback(bool isCorrect, FlagQuestion question)
+        private void ShowFeedback(bool isCorrect)
         {
             if (feedbackText == null)
             {
                 return;
             }
 
-            string message = isCorrect ? "Correct!" : GetWrongAnswerMessage(question);
+            string message = isCorrect ? "Correct!" : GetWrongAnswerMessage();
             if (_feedbackRoutine != null)
             {
                 StopCoroutine(_feedbackRoutine);
@@ -354,15 +395,15 @@ namespace AroundTheWorld
             feedbackText.gameObject.SetActive(false);
         }
 
-        private string GetWrongAnswerMessage(FlagQuestion question)
+        private string GetWrongAnswerMessage()
         {
-            if (question.options == null || question.options.Length == 0)
+            if (_currentOptions == null || _currentOptions.Length == 0)
             {
                 return "Wrong!";
             }
 
-            int correctIndex = Mathf.Clamp(question.correctOptionIndex, 0, question.options.Length - 1);
-            return "Wrong! Correct: " + question.options[correctIndex];
+            int correctIndex = Mathf.Clamp(_currentCorrectIndex, 0, _currentOptions.Length - 1);
+            return "Wrong! Correct: " + _currentOptions[correctIndex];
         }
 
         private void UpdateScoreUI()
