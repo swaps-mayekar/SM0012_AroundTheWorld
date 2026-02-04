@@ -695,7 +695,7 @@
     },
     {
       "flagImageName": "GE",
-      "continent": "Asia",
+      "continent": "Europe",
       "options": [
         "Georgia",
         "China",
@@ -1574,10 +1574,43 @@
       "correctOptionIndex": 0
     },
     {
-      "flagImageName": "GB",
+      "flagImageName": "gb-eng",
       "continent": "Europe",
       "options": [
-        "United Kingdom",
+        "England",
+        "France",
+        "Germany",
+        "Italy"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "flagImageName": "gb-nir",
+      "continent": "Europe",
+      "options": [
+        "Northern Ireland",
+        "France",
+        "Germany",
+        "Italy"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "flagImageName": "gb-sct",
+      "continent": "Europe",
+      "options": [
+        "Scotland",
+        "France",
+        "Germany",
+        "Italy"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "flagImageName": "gb-wls",
+      "continent": "Europe",
+      "options": [
+        "Wales",
         "France",
         "Germany",
         "Italy"
