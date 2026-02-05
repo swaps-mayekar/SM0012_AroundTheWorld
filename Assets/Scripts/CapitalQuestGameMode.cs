@@ -4,31 +4,25 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 namespace AroundTheWorld
 {
-    public class FlagFinderGameMode : MonoBehaviour
+    public class CapitalQuestGameMode : MonoBehaviour
     {
         private const string SelectedContinentKey = "SelectedContinent";
 
         [Header("Data")]
         [SerializeField] private TextAsset questionsJson;
-        [SerializeField] private Sprite[] flagSprites;
-        [SerializeField] private bool loadFlagsFromResources = true;
-        [SerializeField] private string resourcesFlagsPath = "Flags";
-        [SerializeField] private bool useContinentSubfolder = true;
 
         [Header("UI")]
-        [SerializeField] private Image flagImage;
+        [SerializeField] private TMP_Text countryNameText;
         [SerializeField] private Button[] optionButtons;
         [SerializeField] private TMP_Text[] optionLabels;
-        private Button submitButton;
         [SerializeField] private GameObject gameplayPanel;
         [SerializeField] private GameObject summaryPanel;
-        [SerializeField] private TMP_Text summaryText;
-        [SerializeField] private TMP_Text scoreText, streakText;
         [SerializeField] private TMP_Text resultText;
+        [SerializeField] private TMP_Text scoreText;
+        [SerializeField] private TMP_Text streakText;
         [SerializeField] private RectTransform optionsPanelTransform;
         [SerializeField] private CanvasGroup optionsCanvasGroup;
         [SerializeField] private CanvasGroup gameplayCanvasGroup;
@@ -47,8 +41,7 @@ namespace AroundTheWorld
         [SerializeField] private int questionsPerRound = 10;
         [SerializeField] private float panelFadeDuration = 0.25f;
 
-        private readonly List<FlagQuestion> _questions = new List<FlagQuestion>();
-        private readonly Dictionary<string, Sprite> _flagSpriteLookup = new Dictionary<string, Sprite>(StringComparer.OrdinalIgnoreCase);
+        private readonly List<CapitalQuestion> _questions = new List<CapitalQuestion>();
         private int _currentQuestionIndex;
         private int _roundQuestionCount;
         private int _selectedOptionIndex = -1;
@@ -83,13 +76,11 @@ namespace AroundTheWorld
             {
                 summaryCanvasGroup = summaryPanel.GetComponent<CanvasGroup>();
             }
-            BuildFlagSpriteLookup();
         }
 
         private void Start()
         {
             BindOptionButtons();
-            BindSubmitButton();
             LoadQuestions();
             ShuffleQuestions();
             StartRound();
@@ -97,7 +88,6 @@ namespace AroundTheWorld
 
         public void SelectOption(int optionIndex)
         {
-            Debug.Log("SelectOption: " + optionIndex);
             if (optionIndex < 0 || optionIndex >= optionButtons.Length)
             {
                 return;
@@ -105,18 +95,16 @@ namespace AroundTheWorld
 
             _selectedOptionIndex = optionIndex;
             UpdateOptionColors();
-            UpdateSubmitInteractivity();
             SubmitAnswer();
         }
 
-        public void SubmitAnswer()
+        private void SubmitAnswer()
         {
             if (_questions.Count == 0 || _selectedOptionIndex < 0)
             {
                 return;
             }
 
-            var question = _questions[_currentQuestionIndex];
             bool isCorrect = _selectedOptionIndex == _currentCorrectIndex;
             if (isCorrect)
             {
@@ -142,7 +130,6 @@ namespace AroundTheWorld
 
             _selectedOptionIndex = -1;
             UpdateOptionColors();
-            UpdateSubmitInteractivity();
             ShowCurrentQuestion();
         }
 
@@ -180,7 +167,6 @@ namespace AroundTheWorld
             }
 
             UpdateOptionColors();
-            UpdateSubmitInteractivity();
             UpdateScoreUI();
             ShowCurrentQuestion();
         }
@@ -195,31 +181,20 @@ namespace AroundTheWorld
             }
         }
 
-        private void BindSubmitButton()
-        {
-            if (submitButton == null)
-            {
-                return;
-            }
-
-            submitButton.onClick.RemoveAllListeners();
-            submitButton.onClick.AddListener(SubmitAnswer);
-        }
-
         private void LoadQuestions()
         {
             _questions.Clear();
 
             if (questionsJson == null)
             {
-                Debug.LogError("FlagFinderGameMode: Questions JSON is missing.");
+                Debug.LogError("CapitalQuestGameMode: Questions JSON is missing.");
                 return;
             }
 
-            var data = JsonUtility.FromJson<FlagQuestionList>(questionsJson.text);
+            var data = JsonUtility.FromJson<CapitalQuestionList>(questionsJson.text);
             if (data == null || data.questions == null || data.questions.Length == 0)
             {
-                Debug.LogError("FlagFinderGameMode: Questions JSON is empty or invalid.");
+                Debug.LogError("CapitalQuestGameMode: Questions JSON is empty or invalid.");
                 return;
             }
 
@@ -235,24 +210,50 @@ namespace AroundTheWorld
 
             if (_questions.Count == 0)
             {
-                Debug.LogWarning("FlagFinderGameMode: No questions found for continent " + selectedContinent);
+                Debug.LogWarning("CapitalQuestGameMode: No questions found for continent " + selectedContinent);
+            }
+        }
+
+        private void ShuffleQuestions()
+        {
+            for (int i = 0; i < _questions.Count; i++)
+            {
+                int j = UnityEngine.Random.Range(i, _questions.Count);
+                var temp = _questions[i];
+                _questions[i] = _questions[j];
+                _questions[j] = temp;
             }
         }
 
         private void ShowCurrentQuestion()
         {
-            if (_questions.Count == 0)
+            if (_questions.Count == 0 || _roundQuestionCount == 0)
             {
                 return;
             }
 
             var question = _questions[_currentQuestionIndex];
-            UpdateFlagImage(question.flagImageName);
+            if (countryNameText != null)
+            {
+                countryNameText.text = question.countryName;
+            }
+            else
+            {
+                Debug.LogWarning("CapitalQuestGameMode: Country name text is not assigned.");
+            }
+
             PrepareAndShowOptions(question);
-            PlayQuestionIntroAnimation();
+            if (playQuestionIntroAnimation)
+            {
+                PlayQuestionIntroAnimation();
+            }
+            else
+            {
+                EnsureQuestionVisible();
+            }
         }
 
-        private void PrepareAndShowOptions(FlagQuestion question)
+        private void PrepareAndShowOptions(CapitalQuestion question)
         {
             if (question == null || question.options == null || question.options.Length == 0)
             {
@@ -277,32 +278,6 @@ namespace AroundTheWorld
             UpdateOptions(_currentOptions);
         }
 
-        private void UpdateFlagImage(string flagImageName)
-        {
-            if (flagImage == null)
-            {
-                return;
-            }
-
-            if (string.IsNullOrWhiteSpace(flagImageName))
-            {
-                Debug.LogWarning("FlagFinderGameMode: Flag image name is empty.");
-                return;
-            }
-
-            string normalizedName = flagImageName.Trim();
-            if (_flagSpriteLookup.TryGetValue(normalizedName, out var sprite))
-            {
-                flagImage.sprite = sprite;
-                flagImage.enabled = true;
-            }
-            else
-            {
-                Debug.LogWarning("FlagFinderGameMode: Missing sprite for flag " + flagImageName);
-                flagImage.enabled = false;
-            }
-        }
-
         private void UpdateOptions(string[] options)
         {
             if (options == null)
@@ -322,85 +297,6 @@ namespace AroundTheWorld
                 {
                     optionLabels[i].text = hasOption ? options[i] : string.Empty;
                 }
-            }
-        }
-
-        private void PlayQuestionIntroAnimation()
-        {
-            if (!playQuestionIntroAnimation)
-            {
-                return;
-            }
-
-            if (_questionAnimRoutine != null)
-            {
-                StopCoroutine(_questionAnimRoutine);
-            }
-
-            _questionAnimRoutine = StartCoroutine(QuestionIntroRoutine());
-        }
-
-        private IEnumerator QuestionIntroRoutine()
-        {
-            float duration = Mathf.Max(0.05f, questionAnimDuration);
-            float elapsed = 0f;
-
-            RectTransform flagRect = flagImage != null ? flagImage.rectTransform : null;
-            Vector3 startScale = flagRect != null ? Vector3.one * questionStartScale : Vector3.one;
-            Vector3 optionsStartScale = optionsPanelTransform != null ? Vector3.one * questionStartScale : Vector3.one;
-
-            if (flagRect != null)
-            {
-                flagRect.localScale = startScale;
-            }
-
-            if (optionsPanelTransform != null)
-            {
-                optionsPanelTransform.localScale = optionsStartScale;
-            }
-
-            if (optionsCanvasGroup != null)
-            {
-                optionsCanvasGroup.alpha = 0f;
-            }
-
-            while (elapsed < duration)
-            {
-                elapsed += Time.unscaledDeltaTime;
-                float t = Mathf.Clamp01(elapsed / duration);
-                float eased = t * t * (3f - 2f * t);
-
-                if (flagRect != null)
-                {
-                    flagRect.localScale = Vector3.Lerp(startScale, Vector3.one, eased);
-                }
-
-                if (optionsPanelTransform != null)
-                {
-                    optionsPanelTransform.localScale = Vector3.Lerp(optionsStartScale, Vector3.one, eased);
-                }
-
-                if (optionsCanvasGroup != null)
-                {
-                    optionsCanvasGroup.alpha = Mathf.Lerp(0f, 1f, eased);
-                }
-
-                yield return null;
-            }
-
-            if (flagRect != null)
-            {
-                flagRect.localScale = Vector3.one;
-            }
-
-            if (optionsPanelTransform != null)
-            {
-                optionsPanelTransform.localScale = Vector3.one;
-            }
-
-            if (optionsCanvasGroup != null)
-            {
-                optionsCanvasGroup.alpha = 1f;
             }
         }
 
@@ -424,88 +320,79 @@ namespace AroundTheWorld
             }
         }
 
-        private void BuildFlagSpriteLookup()
+        private void PlayQuestionIntroAnimation()
         {
-            _flagSpriteLookup.Clear();
-            if (loadFlagsFromResources)
-            {
-                string loadPath = resourcesFlagsPath;
-                if (useContinentSubfolder)
-                {
-                    string continent = GetSelectedContinentName();
-                    if (!string.IsNullOrWhiteSpace(continent))
-                    {
-                        loadPath = resourcesFlagsPath + "/" + continent;
-                    }
-                }
-
-                var resourceSprites = Resources.LoadAll<Sprite>(loadPath);
-                AddSpritesToLookup(resourceSprites);
-            }
-
-            AddSpritesToLookup(flagSprites);
-        }
-
-        private void AddSpritesToLookup(Sprite[] sprites)
-        {
-            if (sprites == null)
+            if (!playQuestionIntroAnimation)
             {
                 return;
             }
 
-            for (int i = 0; i < sprites.Length; i++)
+            if (_questionAnimRoutine != null)
             {
-                var sprite = sprites[i];
-                if (sprite == null || string.IsNullOrWhiteSpace(sprite.name))
+                StopCoroutine(_questionAnimRoutine);
+            }
+
+            _questionAnimRoutine = StartCoroutine(QuestionIntroRoutine());
+        }
+
+        private void EnsureQuestionVisible()
+        {
+            if (optionsCanvasGroup != null)
+            {
+                optionsCanvasGroup.alpha = 1f;
+            }
+
+            if (optionsPanelTransform != null)
+            {
+                optionsPanelTransform.localScale = Vector3.one;
+            }
+        }
+
+        private IEnumerator QuestionIntroRoutine()
+        {
+            float duration = Mathf.Max(0.05f, questionAnimDuration);
+            float elapsed = 0f;
+
+            Vector3 optionsStartScale = optionsPanelTransform != null ? Vector3.one * questionStartScale : Vector3.one;
+
+            if (optionsPanelTransform != null)
+            {
+                optionsPanelTransform.localScale = optionsStartScale;
+            }
+
+            if (optionsCanvasGroup != null)
+            {
+                optionsCanvasGroup.alpha = 0f;
+            }
+
+            while (elapsed < duration)
+            {
+                elapsed += Time.unscaledDeltaTime;
+                float t = Mathf.Clamp01(elapsed / duration);
+                float eased = t * t * (3f - 2f * t);
+
+                if (optionsPanelTransform != null)
                 {
-                    continue;
+                    optionsPanelTransform.localScale = Vector3.Lerp(optionsStartScale, Vector3.one, eased);
                 }
 
-                if (!_flagSpriteLookup.ContainsKey(sprite.name))
+                if (optionsCanvasGroup != null)
                 {
-                    _flagSpriteLookup.Add(sprite.name, sprite);
+                    optionsCanvasGroup.alpha = Mathf.Lerp(0f, 1f, eased);
                 }
-            }
-        }
 
-        private void ShuffleQuestions()
-        {
-            for (int i = 0; i < _questions.Count; i++)
+                yield return null;
+            }
+
+            if (optionsPanelTransform != null)
             {
-                int j = UnityEngine.Random.Range(i, _questions.Count);
-                var temp = _questions[i];
-                _questions[i] = _questions[j];
-                _questions[j] = temp;
+                optionsPanelTransform.localScale = Vector3.one;
             }
-        }
 
-        private string GetSelectedContinentName()
-        {
-            int continentIndex = PlayerPrefs.GetInt(SelectedContinentKey, 0);
-            if (Enum.IsDefined(typeof(Continent), continentIndex))
+            if (optionsCanvasGroup != null)
             {
-                return ((Continent)continentIndex).ToString();
+                optionsCanvasGroup.alpha = 1f;
             }
-
-            return string.Empty;
-        }
-
-        private bool IsContinentMatch(string selected, string candidate)
-        {
-            if (string.IsNullOrWhiteSpace(selected) || string.IsNullOrWhiteSpace(candidate))
-            {
-                return false;
-            }
-
-            return NormalizeContinent(selected) == NormalizeContinent(candidate);
-        }
-
-        private string NormalizeContinent(string value)
-        {
-            return value.Replace(" ", string.Empty)
-                .Replace("_", string.Empty)
-                .Replace("-", string.Empty)
-                .ToLowerInvariant();
         }
 
         private void UpdateScoreUI()
@@ -533,10 +420,9 @@ namespace AroundTheWorld
 
         private IEnumerator FadeToSummaryRoutine()
         {
-            TMP_Text targetText = resultText != null ? resultText : summaryText;
-            if (targetText != null)
+            if (resultText != null)
             {
-                targetText.text = "Congratulations!\nScore: " + _score;
+                resultText.text = "Congratulations!\nScore: " + _score;
             }
 
             if (summaryPanel != null)
@@ -598,26 +484,45 @@ namespace AroundTheWorld
             return 10 * multiplier;
         }
 
-        private void UpdateSubmitInteractivity()
+        private string GetSelectedContinentName()
         {
-            if (submitButton == null)
+            int continentIndex = PlayerPrefs.GetInt(SelectedContinentKey, 0);
+            if (Enum.IsDefined(typeof(Continent), continentIndex))
             {
-                return;
+                return ((Continent)continentIndex).ToString();
             }
 
-            submitButton.interactable = _selectedOptionIndex >= 0;
+            return string.Empty;
+        }
+
+        private bool IsContinentMatch(string selected, string candidate)
+        {
+            if (string.IsNullOrWhiteSpace(selected) || string.IsNullOrWhiteSpace(candidate))
+            {
+                return false;
+            }
+
+            return NormalizeContinent(selected) == NormalizeContinent(candidate);
+        }
+
+        private string NormalizeContinent(string value)
+        {
+            return value.Replace(" ", string.Empty)
+                .Replace("_", string.Empty)
+                .Replace("-", string.Empty)
+                .ToLowerInvariant();
         }
 
         [Serializable]
-        private class FlagQuestionList
+        private class CapitalQuestionList
         {
-            public FlagQuestion[] questions;
+            public CapitalQuestion[] questions;
         }
 
         [Serializable]
-        private class FlagQuestion
+        private class CapitalQuestion
         {
-            public string flagImageName;
+            public string countryName;
             public string continent;
             public string[] options;
             public int correctOptionIndex;
