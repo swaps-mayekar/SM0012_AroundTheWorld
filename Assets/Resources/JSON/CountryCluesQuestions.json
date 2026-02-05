@@ -1,0 +1,2944 @@
+{
+  "questions": [
+    {
+      "countryName": "Algeria",
+      "continent": "Africa",
+      "area": "2,381,741 sq km",
+      "population": "47,400,000",
+      "language": "Arabic",
+      "currency": "DZD",
+      "options": [
+        "Algeria",
+        "Comoros",
+        "Guinea-Bissau",
+        "Lesotho"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Angola",
+      "continent": "Africa",
+      "area": "1,246,700 sq km",
+      "population": "36,170,961",
+      "language": "Portuguese",
+      "currency": "AOA",
+      "options": [
+        "Angola",
+        "Eritrea",
+        "Comoros",
+        "Benin"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Benin",
+      "continent": "Africa",
+      "area": "112,622 sq km",
+      "population": "13,224,860",
+      "language": "French",
+      "currency": "XOF",
+      "options": [
+        "Benin",
+        "Nigeria",
+        "Central African Republic",
+        "Sierra Leone"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Botswana",
+      "continent": "Africa",
+      "area": "582,000 sq km",
+      "population": "2,359,609",
+      "language": "English",
+      "currency": "BWP",
+      "options": [
+        "Botswana",
+        "Zambia",
+        "Madagascar",
+        "Cabo Verde"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Burkina Faso",
+      "continent": "Africa",
+      "area": "272,967 sq km",
+      "population": "24,070,553",
+      "language": "French",
+      "currency": "XOF",
+      "options": [
+        "Burkina Faso",
+        "Libya",
+        "Zambia",
+        "Sierra Leone"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Burundi",
+      "continent": "Africa",
+      "area": "27,834 sq km",
+      "population": "12,332,788",
+      "language": "French",
+      "currency": "BIF",
+      "options": [
+        "Burundi",
+        "Somalia",
+        "Kenya",
+        "Liberia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Cabo Verde",
+      "continent": "Africa",
+      "area": "4,033 sq km",
+      "population": "491,233",
+      "language": "Portuguese",
+      "currency": "CVE",
+      "options": [
+        "Cabo Verde",
+        "Mozambique",
+        "Namibia",
+        "Djibouti"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Cameroon",
+      "continent": "Africa",
+      "area": "475,442 sq km",
+      "population": "29,442,327",
+      "language": "English",
+      "currency": "XAF",
+      "options": [
+        "Cameroon",
+        "Tunisia",
+        "Botswana",
+        "Egypt"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Central African Republic",
+      "continent": "Africa",
+      "area": "622,984 sq km",
+      "population": "6,470,307",
+      "language": "French",
+      "currency": "XAF",
+      "options": [
+        "Central African Republic",
+        "Morocco",
+        "Seychelles",
+        "Somalia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Chad",
+      "continent": "Africa",
+      "area": "1,284,000 sq km",
+      "population": "19,340,757",
+      "language": "Arabic",
+      "currency": "XAF",
+      "options": [
+        "Chad",
+        "Tanzania",
+        "Mali",
+        "Togo"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Comoros",
+      "continent": "Africa",
+      "area": "1,862 sq km",
+      "population": "919,901",
+      "language": "Arabic",
+      "currency": "KMF",
+      "options": [
+        "Comoros",
+        "Angola",
+        "Tanzania",
+        "South Sudan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Congo",
+      "continent": "Africa",
+      "area": "342,000 sq km",
+      "population": "6,142,180",
+      "language": "French",
+      "currency": "XAF",
+      "options": [
+        "Congo",
+        "Guinea",
+        "Angola",
+        "Sao Tome and Principe"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Democratic Republic of the Congo",
+      "continent": "Africa",
+      "area": "2,344,858 sq km",
+      "population": "112,832,000",
+      "language": "French",
+      "currency": "CDF",
+      "options": [
+        "Democratic Republic of the Congo",
+        "Eswatini",
+        "Comoros",
+        "Benin"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Cote d'Ivoire",
+      "continent": "Africa",
+      "area": "322,463 sq km",
+      "population": "31,719,275",
+      "language": "French",
+      "currency": "XOF",
+      "options": [
+        "Cote d'Ivoire",
+        "South Sudan",
+        "Egypt",
+        "Tanzania"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Djibouti",
+      "continent": "Africa",
+      "area": "23,200 sq km",
+      "population": "1,066,809",
+      "language": "Arabic",
+      "currency": "DJF",
+      "options": [
+        "Djibouti",
+        "Burundi",
+        "Mauritania",
+        "Somalia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Egypt",
+      "continent": "Africa",
+      "area": "1,002,450 sq km",
+      "population": "107,271,260",
+      "language": "Arabic",
+      "currency": "EGP",
+      "options": [
+        "Egypt",
+        "Uganda",
+        "Seychelles",
+        "Central African Republic"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Equatorial Guinea",
+      "continent": "Africa",
+      "area": "28,051 sq km",
+      "population": "1,668,768",
+      "language": "French",
+      "currency": "XAF",
+      "options": [
+        "Equatorial Guinea",
+        "Namibia",
+        "Uganda",
+        "Lesotho"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Eritrea",
+      "continent": "Africa",
+      "area": "117,600 sq km",
+      "population": "3,607,000",
+      "language": "Arabic",
+      "currency": "ERN",
+      "options": [
+        "Eritrea",
+        "Equatorial Guinea",
+        "Uganda",
+        "Guinea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Eswatini",
+      "continent": "Africa",
+      "area": "17,364 sq km",
+      "population": "1,235,549",
+      "language": "English",
+      "currency": "SZL",
+      "options": [
+        "Eswatini",
+        "Burundi",
+        "Cabo Verde",
+        "Mauritania"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Ethiopia",
+      "continent": "Africa",
+      "area": "1,104,300 sq km",
+      "population": "111,652,998",
+      "language": "Amharic",
+      "currency": "ETB",
+      "options": [
+        "Ethiopia",
+        "Seychelles",
+        "Niger",
+        "South Africa"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Gabon",
+      "continent": "Africa",
+      "area": "267,668 sq km",
+      "population": "2,469,296",
+      "language": "French",
+      "currency": "XAF",
+      "options": [
+        "Gabon",
+        "Sudan",
+        "Kenya",
+        "Lesotho"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Gambia",
+      "continent": "Africa",
+      "area": "10,689 sq km",
+      "population": "2,422,712",
+      "language": "English",
+      "currency": "GMD",
+      "options": [
+        "Gambia",
+        "Ethiopia",
+        "Zambia",
+        "Cameroon"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Ghana",
+      "continent": "Africa",
+      "area": "238,533 sq km",
+      "population": "33,742,380",
+      "language": "English",
+      "currency": "GHS",
+      "options": [
+        "Ghana",
+        "Namibia",
+        "Lesotho",
+        "Sierra Leone"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Guinea",
+      "continent": "Africa",
+      "area": "245,857 sq km",
+      "population": "14,363,931",
+      "language": "French",
+      "currency": "GNF",
+      "options": [
+        "Guinea",
+        "Zimbabwe",
+        "Burkina Faso",
+        "Burundi"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Guinea-Bissau",
+      "continent": "Africa",
+      "area": "36,125 sq km",
+      "population": "1,781,308",
+      "language": "Portuguese",
+      "currency": "XOF",
+      "options": [
+        "Guinea-Bissau",
+        "Lesotho",
+        "Uganda",
+        "Niger"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Kenya",
+      "continent": "Africa",
+      "area": "580,367 sq km",
+      "population": "53,330,978",
+      "language": "English",
+      "currency": "KES",
+      "options": [
+        "Kenya",
+        "Chad",
+        "Comoros",
+        "Algeria"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Lesotho",
+      "continent": "Africa",
+      "area": "30,355 sq km",
+      "population": "2,116,427",
+      "language": "English",
+      "currency": "LSL",
+      "options": [
+        "Lesotho",
+        "Comoros",
+        "Uganda",
+        "Mauritania"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Liberia",
+      "continent": "Africa",
+      "area": "111,369 sq km",
+      "population": "5,248,621",
+      "language": "English",
+      "currency": "LRD",
+      "options": [
+        "Liberia",
+        "Egypt",
+        "Namibia",
+        "Niger"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Libya",
+      "continent": "Africa",
+      "area": "1,759,540 sq km",
+      "population": "7,459,000",
+      "language": "Arabic",
+      "currency": "LYD",
+      "options": [
+        "Libya",
+        "Ethiopia",
+        "Tanzania",
+        "Zimbabwe"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Madagascar",
+      "continent": "Africa",
+      "area": "587,041 sq km",
+      "population": "31,727,042",
+      "language": "French",
+      "currency": "MGA",
+      "options": [
+        "Madagascar",
+        "Botswana",
+        "Cameroon",
+        "South Africa"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Malawi",
+      "continent": "Africa",
+      "area": "118,484 sq km",
+      "population": "20,734,262",
+      "language": "English",
+      "currency": "MWK",
+      "options": [
+        "Malawi",
+        "Mozambique",
+        "Senegal",
+        "Sao Tome and Principe"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Mali",
+      "continent": "Africa",
+      "area": "1,240,192 sq km",
+      "population": "22,395,489",
+      "language": "French",
+      "currency": "XOF",
+      "options": [
+        "Mali",
+        "Central African Republic",
+        "Algeria",
+        "Congo"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Mauritania",
+      "continent": "Africa",
+      "area": "1,030,700 sq km",
+      "population": "4,927,532",
+      "language": "Arabic",
+      "currency": "MRU",
+      "options": [
+        "Mauritania",
+        "Comoros",
+        "Burundi",
+        "Mauritius"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Mauritius",
+      "continent": "Africa",
+      "area": "2,040 sq km",
+      "population": "1,243,741",
+      "language": "English",
+      "currency": "MUR",
+      "options": [
+        "Mauritius",
+        "Burkina Faso",
+        "Algeria",
+        "Djibouti"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Morocco",
+      "continent": "Africa",
+      "area": "446,550 sq km",
+      "population": "36,828,330",
+      "language": "Arabic",
+      "currency": "MAD",
+      "options": [
+        "Morocco",
+        "Tanzania",
+        "Sao Tome and Principe",
+        "Ghana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Mozambique",
+      "continent": "Africa",
+      "area": "801,590 sq km",
+      "population": "34,090,466",
+      "language": "Portuguese",
+      "currency": "MZN",
+      "options": [
+        "Mozambique",
+        "Burkina Faso",
+        "Namibia",
+        "Seychelles"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Namibia",
+      "continent": "Africa",
+      "area": "825,615 sq km",
+      "population": "3,022,401",
+      "language": "Afrikaans",
+      "currency": "NAD",
+      "options": [
+        "Namibia",
+        "Sao Tome and Principe",
+        "Nigeria",
+        "Senegal"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Niger",
+      "continent": "Africa",
+      "area": "1,267,000 sq km",
+      "population": "26,312,034",
+      "language": "French",
+      "currency": "XOF",
+      "options": [
+        "Niger",
+        "Cote d'Ivoire",
+        "Libya",
+        "Equatorial Guinea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Nigeria",
+      "continent": "Africa",
+      "area": "923,768 sq km",
+      "population": "223,800,000",
+      "language": "English",
+      "currency": "NGN",
+      "options": [
+        "Nigeria",
+        "Algeria",
+        "Namibia",
+        "Mauritius"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Rwanda",
+      "continent": "Africa",
+      "area": "26,338 sq km",
+      "population": "14,104,969",
+      "language": "English",
+      "currency": "RWF",
+      "options": [
+        "Rwanda",
+        "Lesotho",
+        "Mozambique",
+        "Seychelles"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Sao Tome and Principe",
+      "continent": "Africa",
+      "area": "964 sq km",
+      "population": "209,607",
+      "language": "Portuguese",
+      "currency": "STN",
+      "options": [
+        "Sao Tome and Principe",
+        "Somalia",
+        "Ethiopia",
+        "Egypt"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Senegal",
+      "continent": "Africa",
+      "area": "196,722 sq km",
+      "population": "18,593,258",
+      "language": "French",
+      "currency": "XOF",
+      "options": [
+        "Senegal",
+        "Sierra Leone",
+        "Nigeria",
+        "Algeria"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Seychelles",
+      "continent": "Africa",
+      "area": "452 sq km",
+      "population": "122,729",
+      "language": "Seychellois Creole",
+      "currency": "SCR",
+      "options": [
+        "Seychelles",
+        "Cameroon",
+        "Sierra Leone",
+        "Libya"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Sierra Leone",
+      "continent": "Africa",
+      "area": "71,740 sq km",
+      "population": "9,077,691",
+      "language": "English",
+      "currency": "SLE",
+      "options": [
+        "Sierra Leone",
+        "Central African Republic",
+        "Cote d'Ivoire",
+        "Eritrea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Somalia",
+      "continent": "Africa",
+      "area": "637,657 sq km",
+      "population": "19,655,000",
+      "language": "Arabic",
+      "currency": "SOS",
+      "options": [
+        "Somalia",
+        "Cote d'Ivoire",
+        "Liberia",
+        "Algeria"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "South Africa",
+      "continent": "Africa",
+      "area": "1,221,037 sq km",
+      "population": "63,100,945",
+      "language": "Afrikaans",
+      "currency": "ZAR",
+      "options": [
+        "South Africa",
+        "Burundi",
+        "Gabon",
+        "Liberia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "South Sudan",
+      "continent": "Africa",
+      "area": "619,745 sq km",
+      "population": "15,786,898",
+      "language": "English",
+      "currency": "SSP",
+      "options": [
+        "South Sudan",
+        "Niger",
+        "Somalia",
+        "Togo"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Sudan",
+      "continent": "Africa",
+      "area": "1,886,068 sq km",
+      "population": "51,662,000",
+      "language": "Arabic",
+      "currency": "SDG",
+      "options": [
+        "Sudan",
+        "Uganda",
+        "Namibia",
+        "Equatorial Guinea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Tanzania",
+      "continent": "Africa",
+      "area": "947,303 sq km",
+      "population": "68,153,004",
+      "language": "English",
+      "currency": "TZS",
+      "options": [
+        "Tanzania",
+        "Rwanda",
+        "Djibouti",
+        "Cabo Verde"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Togo",
+      "continent": "Africa",
+      "area": "56,785 sq km",
+      "population": "8,095,498",
+      "language": "French",
+      "currency": "XOF",
+      "options": [
+        "Togo",
+        "Sudan",
+        "Burundi",
+        "Libya"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Tunisia",
+      "continent": "Africa",
+      "area": "163,610 sq km",
+      "population": "11,972,169",
+      "language": "Arabic",
+      "currency": "TND",
+      "options": [
+        "Tunisia",
+        "Sao Tome and Principe",
+        "Gabon",
+        "Gambia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Uganda",
+      "continent": "Africa",
+      "area": "241,550 sq km",
+      "population": "45,905,417",
+      "language": "English",
+      "currency": "UGX",
+      "options": [
+        "Uganda",
+        "Mozambique",
+        "Eritrea",
+        "Malawi"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Zambia",
+      "continent": "Africa",
+      "area": "752,612 sq km",
+      "population": "19,693,423",
+      "language": "English",
+      "currency": "ZMW",
+      "options": [
+        "Zambia",
+        "Guinea",
+        "Central African Republic",
+        "Uganda"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Zimbabwe",
+      "continent": "Africa",
+      "area": "390,757 sq km",
+      "population": "17,073,087",
+      "language": "Chibarwe",
+      "currency": "ZWL",
+      "options": [
+        "Zimbabwe",
+        "Djibouti",
+        "Angola",
+        "Niger"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Afghanistan",
+      "continent": "Asia",
+      "area": "652,230 sq km",
+      "population": "43,844,000",
+      "language": "Dari",
+      "currency": "AFN",
+      "options": [
+        "Afghanistan",
+        "Syria",
+        "Tajikistan",
+        "Bangladesh"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Armenia",
+      "continent": "Asia",
+      "area": "29,743 sq km",
+      "population": "3,076,200",
+      "language": "Armenian",
+      "currency": "AMD",
+      "options": [
+        "Armenia",
+        "Iraq",
+        "Singapore",
+        "Timor-Leste"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Azerbaijan",
+      "continent": "Asia",
+      "area": "86,600 sq km",
+      "population": "10,241,722",
+      "language": "Azerbaijani",
+      "currency": "AZN",
+      "options": [
+        "Azerbaijan",
+        "Cambodia",
+        "Oman",
+        "Laos"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Bahrain",
+      "continent": "Asia",
+      "area": "765 sq km",
+      "population": "1,594,654",
+      "language": "Arabic",
+      "currency": "BHD",
+      "options": [
+        "Bahrain",
+        "Uzbekistan",
+        "Singapore",
+        "Tajikistan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Bangladesh",
+      "continent": "Asia",
+      "area": "147,570 sq km",
+      "population": "169,828,911",
+      "language": "Bengali",
+      "currency": "BDT",
+      "options": [
+        "Bangladesh",
+        "Qatar",
+        "Iran",
+        "China"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Bhutan",
+      "continent": "Asia",
+      "area": "38,394 sq km",
+      "population": "784,043",
+      "language": "Dzongkha",
+      "currency": "BTN",
+      "options": [
+        "Bhutan",
+        "Philippines",
+        "Syria",
+        "Mongolia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Brunei",
+      "continent": "Asia",
+      "area": "5,765 sq km",
+      "population": "455,500",
+      "language": "Malay",
+      "currency": "BND",
+      "options": [
+        "Brunei",
+        "Maldives",
+        "Lebanon",
+        "Syria"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Cambodia",
+      "continent": "Asia",
+      "area": "181,035 sq km",
+      "population": "17,577,760",
+      "language": "Khmer",
+      "currency": "KHR",
+      "options": [
+        "Cambodia",
+        "Singapore",
+        "Kazakhstan",
+        "Kyrgyzstan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "China",
+      "continent": "Asia",
+      "area": "9,706,961 sq km",
+      "population": "1,408,280,000",
+      "language": "Chinese",
+      "currency": "CNY",
+      "options": [
+        "China",
+        "Syria",
+        "Uzbekistan",
+        "Vietnam"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Georgia",
+      "continent": "Europe",
+      "area": "69,700 sq km",
+      "population": "4,000,921",
+      "language": "Georgian",
+      "currency": "GEL",
+      "options": [
+        "Georgia",
+        "Russia",
+        "Belgium",
+        "Scotland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "India",
+      "continent": "Asia",
+      "area": "3,287,263 sq km",
+      "population": "1,417,492,000",
+      "language": "Hindi",
+      "currency": "INR",
+      "options": [
+        "India",
+        "Syria",
+        "Philippines",
+        "North Korea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Indonesia",
+      "continent": "Asia",
+      "area": "1,904,569 sq km",
+      "population": "284,438,782",
+      "language": "Indonesian",
+      "currency": "IDR",
+      "options": [
+        "Indonesia",
+        "United Arab Emirates",
+        "Bangladesh",
+        "Turkey"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Iran",
+      "continent": "Asia",
+      "area": "1,648,195 sq km",
+      "population": "85,961,000",
+      "language": "Persian (Farsi)",
+      "currency": "IRR",
+      "options": [
+        "Iran",
+        "Maldives",
+        "Turkey",
+        "Nepal"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Iraq",
+      "continent": "Asia",
+      "area": "438,317 sq km",
+      "population": "46,118,793",
+      "language": "Arabic",
+      "currency": "IQD",
+      "options": [
+        "Iraq",
+        "Myanmar",
+        "Saudi Arabia",
+        "Lebanon"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Israel",
+      "continent": "Asia",
+      "area": "21,937 sq km",
+      "population": "10,134,800",
+      "language": "Arabic",
+      "currency": "ILS",
+      "options": [
+        "Israel",
+        "Jordan",
+        "Mongolia",
+        "Maldives"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Japan",
+      "continent": "Asia",
+      "area": "377,930 sq km",
+      "population": "123,210,000",
+      "language": "Japanese",
+      "currency": "JPY",
+      "options": [
+        "Japan",
+        "Turkey",
+        "Mongolia",
+        "Israel"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Jordan",
+      "continent": "Asia",
+      "area": "89,342 sq km",
+      "population": "11,734,000",
+      "language": "Arabic",
+      "currency": "JOD",
+      "options": [
+        "Jordan",
+        "Japan",
+        "Indonesia",
+        "Singapore"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Kazakhstan",
+      "continent": "Asia",
+      "area": "2,724,900 sq km",
+      "population": "20,426,568",
+      "language": "Kazakh",
+      "currency": "KZT",
+      "options": [
+        "Kazakhstan",
+        "Nepal",
+        "Yemen",
+        "Saudi Arabia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Kuwait",
+      "continent": "Asia",
+      "area": "17,818 sq km",
+      "population": "4,881,254",
+      "language": "Arabic",
+      "currency": "KWD",
+      "options": [
+        "Kuwait",
+        "Kyrgyzstan",
+        "Brunei",
+        "Oman"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Kyrgyzstan",
+      "continent": "Asia",
+      "area": "199,951 sq km",
+      "population": "7,281,800",
+      "language": "Kyrgyz",
+      "currency": "KGS",
+      "options": [
+        "Kyrgyzstan",
+        "Laos",
+        "United Arab Emirates",
+        "Qatar"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Laos",
+      "continent": "Asia",
+      "area": "236,800 sq km",
+      "population": "7,647,000",
+      "language": "Lao",
+      "currency": "LAK",
+      "options": [
+        "Laos",
+        "Japan",
+        "Azerbaijan",
+        "Sri Lanka"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Lebanon",
+      "continent": "Asia",
+      "area": "10,452 sq km",
+      "population": "5,490,000",
+      "language": "Arabic",
+      "currency": "LBP",
+      "options": [
+        "Lebanon",
+        "Nepal",
+        "Afghanistan",
+        "Syria"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Malaysia",
+      "continent": "Asia",
+      "area": "330,803 sq km",
+      "population": "34,231,700",
+      "language": "English",
+      "currency": "MYR",
+      "options": [
+        "Malaysia",
+        "Kuwait",
+        "Saudi Arabia",
+        "Sri Lanka"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Maldives",
+      "continent": "Asia",
+      "area": "300 sq km",
+      "population": "515,132",
+      "language": "Maldivian",
+      "currency": "MVR",
+      "options": [
+        "Maldives",
+        "Qatar",
+        "India",
+        "Malaysia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Mongolia",
+      "continent": "Asia",
+      "area": "1,564,110 sq km",
+      "population": "3,544,835",
+      "language": "Mongolian",
+      "currency": "MNT",
+      "options": [
+        "Mongolia",
+        "Israel",
+        "Armenia",
+        "Vietnam"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Myanmar",
+      "continent": "Asia",
+      "area": "676,578 sq km",
+      "population": "51,316,756",
+      "language": "Burmese",
+      "currency": "MMK",
+      "options": [
+        "Myanmar",
+        "Iraq",
+        "Saudi Arabia",
+        "Kazakhstan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Nepal",
+      "continent": "Asia",
+      "area": "147,181 sq km",
+      "population": "29,911,840",
+      "language": "Nepali",
+      "currency": "NPR",
+      "options": [
+        "Nepal",
+        "Laos",
+        "Uzbekistan",
+        "Sri Lanka"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "North Korea",
+      "continent": "Asia",
+      "area": "120,538 sq km",
+      "population": "25,950,000",
+      "language": "Korean",
+      "currency": "KPW",
+      "options": [
+        "North Korea",
+        "Tajikistan",
+        "Kazakhstan",
+        "Myanmar"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Oman",
+      "continent": "Asia",
+      "area": "309,500 sq km",
+      "population": "5,343,630",
+      "language": "Arabic",
+      "currency": "OMR",
+      "options": [
+        "Oman",
+        "Iran",
+        "Laos",
+        "Kazakhstan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Pakistan",
+      "continent": "Asia",
+      "area": "796,095 sq km",
+      "population": "241,499,431",
+      "language": "Urdu",
+      "currency": "PKR",
+      "options": [
+        "Pakistan",
+        "Kyrgyzstan",
+        "Indonesia",
+        "Turkey"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Philippines",
+      "continent": "Asia",
+      "area": "342,353 sq km",
+      "population": "114,123,600",
+      "language": "English",
+      "currency": "PHP",
+      "options": [
+        "Philippines",
+        "South Korea",
+        "Laos",
+        "Lebanon"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Qatar",
+      "continent": "Asia",
+      "area": "11,586 sq km",
+      "population": "3,173,024",
+      "language": "Arabic",
+      "currency": "QAR",
+      "options": [
+        "Qatar",
+        "South Korea",
+        "Sri Lanka",
+        "Pakistan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Saudi Arabia",
+      "continent": "Asia",
+      "area": "2,149,690 sq km",
+      "population": "35,300,280",
+      "language": "Arabic",
+      "currency": "SAR",
+      "options": [
+        "Saudi Arabia",
+        "Japan",
+        "Lebanon",
+        "Kazakhstan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Singapore",
+      "continent": "Asia",
+      "area": "710 sq km",
+      "population": "6,110,200",
+      "language": "English",
+      "currency": "SGD",
+      "options": [
+        "Singapore",
+        "Syria",
+        "India",
+        "Vietnam"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "South Korea",
+      "continent": "Asia",
+      "area": "100,210 sq km",
+      "population": "51,159,889",
+      "language": "Korean",
+      "currency": "KRW",
+      "options": [
+        "South Korea",
+        "Iraq",
+        "Vietnam",
+        "Thailand"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Sri Lanka",
+      "continent": "Asia",
+      "area": "65,610 sq km",
+      "population": "21,763,170",
+      "language": "Sinhala",
+      "currency": "LKR",
+      "options": [
+        "Sri Lanka",
+        "Kuwait",
+        "North Korea",
+        "Jordan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Syria",
+      "continent": "Asia",
+      "area": "185,180 sq km",
+      "population": "25,620,000",
+      "language": "Arabic",
+      "currency": "SYP",
+      "options": [
+        "Syria",
+        "Armenia",
+        "Kazakhstan",
+        "Lebanon"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Tajikistan",
+      "continent": "Asia",
+      "area": "143,100 sq km",
+      "population": "10,499,000",
+      "language": "Russian",
+      "currency": "TJS",
+      "options": [
+        "Tajikistan",
+        "Kazakhstan",
+        "Philippines",
+        "Brunei"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Thailand",
+      "continent": "Asia",
+      "area": "513,120 sq km",
+      "population": "65,859,640",
+      "language": "Thai",
+      "currency": "THB",
+      "options": [
+        "Thailand",
+        "Saudi Arabia",
+        "Brunei",
+        "Israel"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Timor-Leste",
+      "continent": "Asia",
+      "area": "14,874 sq km",
+      "population": "1,391,221",
+      "language": "Portuguese",
+      "currency": "USD",
+      "options": [
+        "Timor-Leste",
+        "Jordan",
+        "India",
+        "North Korea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Turkey",
+      "continent": "Asia",
+      "area": "783,562 sq km",
+      "population": "85,664,944",
+      "language": "Turkish",
+      "currency": "TRY",
+      "options": [
+        "Turkey",
+        "Iraq",
+        "Azerbaijan",
+        "Lebanon"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Turkmenistan",
+      "continent": "Asia",
+      "area": "488,100 sq km",
+      "population": "7,057,841",
+      "language": "Russian",
+      "currency": "TMT",
+      "options": [
+        "Turkmenistan",
+        "Pakistan",
+        "Jordan",
+        "Lebanon"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "United Arab Emirates",
+      "continent": "Asia",
+      "area": "83,600 sq km",
+      "population": "11,294,243",
+      "language": "Arabic",
+      "currency": "AED",
+      "options": [
+        "United Arab Emirates",
+        "Kuwait",
+        "Lebanon",
+        "Kyrgyzstan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Uzbekistan",
+      "continent": "Asia",
+      "area": "447,400 sq km",
+      "population": "37,859,698",
+      "language": "Russian",
+      "currency": "UZS",
+      "options": [
+        "Uzbekistan",
+        "Philippines",
+        "Vietnam",
+        "Nepal"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Vietnam",
+      "continent": "Asia",
+      "area": "331,212 sq km",
+      "population": "101,343,800",
+      "language": "Vietnamese",
+      "currency": "VND",
+      "options": [
+        "Vietnam",
+        "Brunei",
+        "Lebanon",
+        "Yemen"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Yemen",
+      "continent": "Asia",
+      "area": "527,968 sq km",
+      "population": "32,684,503",
+      "language": "Arabic",
+      "currency": "YER",
+      "options": [
+        "Yemen",
+        "Tajikistan",
+        "Kuwait",
+        "Bhutan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Albania",
+      "continent": "Europe",
+      "area": "28,748 sq km",
+      "population": "2,363,314",
+      "language": "Albanian",
+      "currency": "ALL",
+      "options": [
+        "Albania",
+        "Austria",
+        "Andorra",
+        "Luxembourg"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Andorra",
+      "continent": "Europe",
+      "area": "468 sq km",
+      "population": "88,406",
+      "language": "Catalan",
+      "currency": "EUR",
+      "options": [
+        "Andorra",
+        "Russia",
+        "Belgium",
+        "North Macedonia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Austria",
+      "continent": "Europe",
+      "area": "83,871 sq km",
+      "population": "9,200,931",
+      "language": "German",
+      "currency": "EUR",
+      "options": [
+        "Austria",
+        "Serbia",
+        "San Marino",
+        "Liechtenstein"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Belarus",
+      "continent": "Europe",
+      "area": "207,600 sq km",
+      "population": "9,109,280",
+      "language": "Belarusian",
+      "currency": "BYN",
+      "options": [
+        "Belarus",
+        "Belgium",
+        "Bulgaria",
+        "North Macedonia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Belgium",
+      "continent": "Europe",
+      "area": "30,528 sq km",
+      "population": "11,825,551",
+      "language": "German",
+      "currency": "EUR",
+      "options": [
+        "Belgium",
+        "Luxembourg",
+        "Austria",
+        "Italy"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Bosnia and Herzegovina",
+      "continent": "Europe",
+      "area": "51,209 sq km",
+      "population": "3,422,000",
+      "language": "Bosnian",
+      "currency": "BAM",
+      "options": [
+        "Bosnia and Herzegovina",
+        "Hungary",
+        "France",
+        "Greece"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Bulgaria",
+      "continent": "Europe",
+      "area": "110,879 sq km",
+      "population": "6,437,360",
+      "language": "Bulgarian",
+      "currency": "BGN",
+      "options": [
+        "Bulgaria",
+        "France",
+        "Malta",
+        "Georgia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Croatia",
+      "continent": "Europe",
+      "area": "56,594 sq km",
+      "population": "3,866,233",
+      "language": "Croatian",
+      "currency": "EUR",
+      "options": [
+        "Croatia",
+        "France",
+        "Northern Ireland",
+        "Romania"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Cyprus",
+      "continent": "Europe",
+      "area": "9,251 sq km",
+      "population": "1,442,614",
+      "language": "Greek",
+      "currency": "EUR",
+      "options": [
+        "Cyprus",
+        "Finland",
+        "Romania",
+        "Monaco"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Czechia",
+      "continent": "Europe",
+      "area": "78,865 sq km",
+      "population": "10,882,341",
+      "language": "Czech",
+      "currency": "CZK",
+      "options": [
+        "Czechia",
+        "Liechtenstein",
+        "Norway",
+        "Denmark"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Denmark",
+      "continent": "Europe",
+      "area": "43,094 sq km",
+      "population": "6,011,488",
+      "language": "Danish",
+      "currency": "DKK",
+      "options": [
+        "Denmark",
+        "Moldova",
+        "Liechtenstein",
+        "Bulgaria"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Estonia",
+      "continent": "Europe",
+      "area": "45,227 sq km",
+      "population": "1,369,995",
+      "language": "Estonian",
+      "currency": "EUR",
+      "options": [
+        "Estonia",
+        "Czechia",
+        "Montenegro",
+        "Northern Ireland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Finland",
+      "continent": "Europe",
+      "area": "338,455 sq km",
+      "population": "5,650,325",
+      "language": "Finnish",
+      "currency": "EUR",
+      "options": [
+        "Finland",
+        "San Marino",
+        "Albania",
+        "North Macedonia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "France",
+      "continent": "Europe",
+      "area": "543,908 sq km",
+      "population": "66,351,959",
+      "language": "French",
+      "currency": "EUR",
+      "options": [
+        "France",
+        "Norway",
+        "Sweden",
+        "Belgium"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Germany",
+      "continent": "Europe",
+      "area": "357,114 sq km",
+      "population": "83,491,249",
+      "language": "German",
+      "currency": "EUR",
+      "options": [
+        "Germany",
+        "Serbia",
+        "San Marino",
+        "Malta"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Greece",
+      "continent": "Europe",
+      "area": "131,990 sq km",
+      "population": "10,400,720",
+      "language": "Greek",
+      "currency": "EUR",
+      "options": [
+        "Greece",
+        "Spain",
+        "Luxembourg",
+        "Italy"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Hungary",
+      "continent": "Europe",
+      "area": "93,028 sq km",
+      "population": "9,539,502",
+      "language": "Hungarian",
+      "currency": "HUF",
+      "options": [
+        "Hungary",
+        "Latvia",
+        "Switzerland",
+        "San Marino"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Iceland",
+      "continent": "Europe",
+      "area": "103,000 sq km",
+      "population": "391,810",
+      "language": "Icelandic",
+      "currency": "ISK",
+      "options": [
+        "Iceland",
+        "Andorra",
+        "France",
+        "San Marino"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Ireland",
+      "continent": "Europe",
+      "area": "70,273 sq km",
+      "population": "5,458,600",
+      "language": "English",
+      "currency": "EUR",
+      "options": [
+        "Ireland",
+        "Italy",
+        "Bulgaria",
+        "Portugal"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Italy",
+      "continent": "Europe",
+      "area": "301,336 sq km",
+      "population": "58,927,633",
+      "language": "Italian",
+      "currency": "EUR",
+      "options": [
+        "Italy",
+        "Liechtenstein",
+        "Georgia",
+        "Albania"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Latvia",
+      "continent": "Europe",
+      "area": "64,559 sq km",
+      "population": "1,829,000",
+      "language": "Latvian",
+      "currency": "EUR",
+      "options": [
+        "Latvia",
+        "France",
+        "Lithuania",
+        "Poland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Liechtenstein",
+      "continent": "Europe",
+      "area": "160 sq km",
+      "population": "40,900",
+      "language": "German",
+      "currency": "CHF",
+      "options": [
+        "Liechtenstein",
+        "Belgium",
+        "Austria",
+        "Scotland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Lithuania",
+      "continent": "Europe",
+      "area": "65,300 sq km",
+      "population": "2,894,886",
+      "language": "Lithuanian",
+      "currency": "EUR",
+      "options": [
+        "Lithuania",
+        "Slovenia",
+        "Netherlands",
+        "Latvia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Luxembourg",
+      "continent": "Europe",
+      "area": "2,586 sq km",
+      "population": "681,973",
+      "language": "German",
+      "currency": "EUR",
+      "options": [
+        "Luxembourg",
+        "Montenegro",
+        "Liechtenstein",
+        "Serbia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Malta",
+      "continent": "Europe",
+      "area": "316 sq km",
+      "population": "574,250",
+      "language": "English",
+      "currency": "EUR",
+      "options": [
+        "Malta",
+        "Monaco",
+        "Denmark",
+        "Spain"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Moldova",
+      "continent": "Europe",
+      "area": "33,847 sq km",
+      "population": "2,749,076",
+      "language": "Romanian",
+      "currency": "MDL",
+      "options": [
+        "Moldova",
+        "Sweden",
+        "Georgia",
+        "Latvia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Monaco",
+      "continent": "Europe",
+      "area": "2 sq km",
+      "population": "38,423",
+      "language": "French",
+      "currency": "EUR",
+      "options": [
+        "Monaco",
+        "Romania",
+        "England",
+        "Malta"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Montenegro",
+      "continent": "Europe",
+      "area": "13,812 sq km",
+      "population": "623,327",
+      "language": "Montenegrin",
+      "currency": "EUR",
+      "options": [
+        "Montenegro",
+        "Ireland",
+        "Scotland",
+        "Iceland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Netherlands",
+      "continent": "Europe",
+      "area": "41,865 sq km",
+      "population": "18,100,436",
+      "language": "Dutch",
+      "currency": "EUR",
+      "options": [
+        "Netherlands",
+        "Cyprus",
+        "Austria",
+        "Belgium"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "North Macedonia",
+      "continent": "Europe",
+      "area": "25,713 sq km",
+      "population": "1,822,612",
+      "language": "Macedonian",
+      "currency": "MKD",
+      "options": [
+        "North Macedonia",
+        "Italy",
+        "Scotland",
+        "Ireland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Norway",
+      "continent": "Europe",
+      "area": "386,224 sq km",
+      "population": "5,606,944",
+      "language": "Norwegian Nynorsk",
+      "currency": "NOK",
+      "options": [
+        "Norway",
+        "Czechia",
+        "Malta",
+        "Germany"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Poland",
+      "continent": "Europe",
+      "area": "312,679 sq km",
+      "population": "37,392,000",
+      "language": "Polish",
+      "currency": "PLN",
+      "options": [
+        "Poland",
+        "Lithuania",
+        "England",
+        "Moldova"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Portugal",
+      "continent": "Europe",
+      "area": "92,090 sq km",
+      "population": "10,749,635",
+      "language": "Portuguese",
+      "currency": "EUR",
+      "options": [
+        "Portugal",
+        "Czechia",
+        "Malta",
+        "France"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Romania",
+      "continent": "Europe",
+      "area": "238,391 sq km",
+      "population": "19,036,031",
+      "language": "Romanian",
+      "currency": "RON",
+      "options": [
+        "Romania",
+        "Malta",
+        "Serbia",
+        "Netherlands"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Russia",
+      "continent": "Europe",
+      "area": "17,098,246 sq km",
+      "population": "146,028,325",
+      "language": "Russian",
+      "currency": "RUB",
+      "options": [
+        "Russia",
+        "Liechtenstein",
+        "Sweden",
+        "Czechia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "San Marino",
+      "continent": "Europe",
+      "area": "61 sq km",
+      "population": "34,132",
+      "language": "Italian",
+      "currency": "EUR",
+      "options": [
+        "San Marino",
+        "Iceland",
+        "Portugal",
+        "England"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Serbia",
+      "continent": "Europe",
+      "area": "77,589 sq km",
+      "population": "6,567,783",
+      "language": "Serbian",
+      "currency": "RSD",
+      "options": [
+        "Serbia",
+        "Belgium",
+        "Ireland",
+        "Austria"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Slovakia",
+      "continent": "Europe",
+      "area": "49,037 sq km",
+      "population": "5,413,813",
+      "language": "Slovak",
+      "currency": "EUR",
+      "options": [
+        "Slovakia",
+        "Slovenia",
+        "Belarus",
+        "Northern Ireland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Slovenia",
+      "continent": "Europe",
+      "area": "20,273 sq km",
+      "population": "2,130,638",
+      "language": "Slovene",
+      "currency": "EUR",
+      "options": [
+        "Slovenia",
+        "Liechtenstein",
+        "Norway",
+        "Luxembourg"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Spain",
+      "continent": "Europe",
+      "area": "505,992 sq km",
+      "population": "49,315,949",
+      "language": "Spanish",
+      "currency": "EUR",
+      "options": [
+        "Spain",
+        "Netherlands",
+        "Monaco",
+        "Serbia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Sweden",
+      "continent": "Europe",
+      "area": "450,295 sq km",
+      "population": "10,605,098",
+      "language": "Swedish",
+      "currency": "SEK",
+      "options": [
+        "Sweden",
+        "Moldova",
+        "Belarus",
+        "Albania"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Switzerland",
+      "continent": "Europe",
+      "area": "41,284 sq km",
+      "population": "9,082,848",
+      "language": "French",
+      "currency": "CHF",
+      "options": [
+        "Switzerland",
+        "Slovakia",
+        "Norway",
+        "Bosnia and Herzegovina"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Ukraine",
+      "continent": "Europe",
+      "area": "603,550 sq km",
+      "population": "32,862,000",
+      "language": "Ukrainian",
+      "currency": "UAH",
+      "options": [
+        "Ukraine",
+        "Spain",
+        "Estonia",
+        "Czechia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "England",
+      "continent": "Europe",
+      "area": "244,376 sq km",
+      "population": "69,281,437",
+      "language": "English",
+      "currency": "GBP",
+      "options": [
+        "England",
+        "Monaco",
+        "Denmark",
+        "Lithuania"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Northern Ireland",
+      "continent": "Europe",
+      "area": "244,376 sq km",
+      "population": "69,281,437",
+      "language": "English",
+      "currency": "GBP",
+      "options": [
+        "Northern Ireland",
+        "Sweden",
+        "Lithuania",
+        "Hungary"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Scotland",
+      "continent": "Europe",
+      "area": "244,376 sq km",
+      "population": "69,281,437",
+      "language": "English",
+      "currency": "GBP",
+      "options": [
+        "Scotland",
+        "Liechtenstein",
+        "Poland",
+        "Wales"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Wales",
+      "continent": "Europe",
+      "area": "244,376 sq km",
+      "population": "69,281,437",
+      "language": "English",
+      "currency": "GBP",
+      "options": [
+        "Wales",
+        "Poland",
+        "Andorra",
+        "Croatia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Antigua and Barbuda",
+      "continent": "NorthAmerica",
+      "area": "442 sq km",
+      "population": "103,603",
+      "language": "English",
+      "currency": "XCD",
+      "options": [
+        "Antigua and Barbuda",
+        "Saint Vincent and the Grenadines",
+        "Barbados",
+        "Panama"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Bahamas",
+      "continent": "NorthAmerica",
+      "area": "13,943 sq km",
+      "population": "398,165",
+      "language": "English",
+      "currency": "BSD",
+      "options": [
+        "Bahamas",
+        "Trinidad and Tobago",
+        "Nicaragua",
+        "Canada"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Barbados",
+      "continent": "NorthAmerica",
+      "area": "430 sq km",
+      "population": "267,800",
+      "language": "English",
+      "currency": "BBD",
+      "options": [
+        "Barbados",
+        "Costa Rica",
+        "Antigua and Barbuda",
+        "Saint Kitts and Nevis"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Belize",
+      "continent": "NorthAmerica",
+      "area": "22,966 sq km",
+      "population": "417,634",
+      "language": "Belizean Creole",
+      "currency": "BZD",
+      "options": [
+        "Belize",
+        "Saint Lucia",
+        "Grenada",
+        "Panama"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Canada",
+      "continent": "NorthAmerica",
+      "area": "9,984,670 sq km",
+      "population": "41,651,653",
+      "language": "English",
+      "currency": "CAD",
+      "options": [
+        "Canada",
+        "Barbados",
+        "Bahamas",
+        "Saint Vincent and the Grenadines"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Costa Rica",
+      "continent": "NorthAmerica",
+      "area": "51,100 sq km",
+      "population": "5,309,625",
+      "language": "Spanish",
+      "currency": "CRC",
+      "options": [
+        "Costa Rica",
+        "Cuba",
+        "Dominica",
+        "Jamaica"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Cuba",
+      "continent": "NorthAmerica",
+      "area": "109,884 sq km",
+      "population": "9,748,007",
+      "language": "Spanish",
+      "currency": "CUC",
+      "options": [
+        "Cuba",
+        "Dominica",
+        "Dominican Republic",
+        "Barbados"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Dominica",
+      "continent": "NorthAmerica",
+      "area": "751 sq km",
+      "population": "67,408",
+      "language": "English",
+      "currency": "XCD",
+      "options": [
+        "Dominica",
+        "Honduras",
+        "Belize",
+        "Costa Rica"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Dominican Republic",
+      "continent": "NorthAmerica",
+      "area": "48,671 sq km",
+      "population": "10,771,504",
+      "language": "Spanish",
+      "currency": "DOP",
+      "options": [
+        "Dominican Republic",
+        "Saint Vincent and the Grenadines",
+        "Guatemala",
+        "Grenada"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "El Salvador",
+      "continent": "NorthAmerica",
+      "area": "21,041 sq km",
+      "population": "6,029,976",
+      "language": "Spanish",
+      "currency": "USD",
+      "options": [
+        "El Salvador",
+        "Saint Kitts and Nevis",
+        "Nicaragua",
+        "Saint Vincent and the Grenadines"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Grenada",
+      "continent": "NorthAmerica",
+      "area": "344 sq km",
+      "population": "109,021",
+      "language": "English",
+      "currency": "XCD",
+      "options": [
+        "Grenada",
+        "Haiti",
+        "Bahamas",
+        "United States"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Guatemala",
+      "continent": "NorthAmerica",
+      "area": "108,889 sq km",
+      "population": "18,079,810",
+      "language": "Spanish",
+      "currency": "GTQ",
+      "options": [
+        "Guatemala",
+        "Canada",
+        "Antigua and Barbuda",
+        "Saint Kitts and Nevis"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Haiti",
+      "continent": "NorthAmerica",
+      "area": "27,750 sq km",
+      "population": "11,867,032",
+      "language": "French",
+      "currency": "HTG",
+      "options": [
+        "Haiti",
+        "Bahamas",
+        "Dominican Republic",
+        "Saint Vincent and the Grenadines"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Honduras",
+      "continent": "NorthAmerica",
+      "area": "112,492 sq km",
+      "population": "9,892,632",
+      "language": "Spanish",
+      "currency": "HNL",
+      "options": [
+        "Honduras",
+        "Dominica",
+        "Cuba",
+        "Guatemala"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Jamaica",
+      "continent": "NorthAmerica",
+      "area": "10,991 sq km",
+      "population": "2,825,544",
+      "language": "English",
+      "currency": "JMD",
+      "options": [
+        "Jamaica",
+        "Panama",
+        "El Salvador",
+        "Honduras"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Mexico",
+      "continent": "NorthAmerica",
+      "area": "1,964,375 sq km",
+      "population": "130,575,786",
+      "language": "Spanish",
+      "currency": "MXN",
+      "options": [
+        "Mexico",
+        "Barbados",
+        "Dominican Republic",
+        "Costa Rica"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Nicaragua",
+      "continent": "NorthAmerica",
+      "area": "130,373 sq km",
+      "population": "6,803,886",
+      "language": "Spanish",
+      "currency": "NIO",
+      "options": [
+        "Nicaragua",
+        "Trinidad and Tobago",
+        "Saint Vincent and the Grenadines",
+        "Barbados"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Panama",
+      "continent": "NorthAmerica",
+      "area": "75,417 sq km",
+      "population": "4,064,780",
+      "language": "Spanish",
+      "currency": "PAB",
+      "options": [
+        "Panama",
+        "Saint Vincent and the Grenadines",
+        "Nicaragua",
+        "Cuba"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Saint Kitts and Nevis",
+      "continent": "NorthAmerica",
+      "area": "261 sq km",
+      "population": "51,320",
+      "language": "English",
+      "currency": "XCD",
+      "options": [
+        "Saint Kitts and Nevis",
+        "Dominican Republic",
+        "Bahamas",
+        "Costa Rica"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Saint Lucia",
+      "continent": "NorthAmerica",
+      "area": "616 sq km",
+      "population": "184,100",
+      "language": "English",
+      "currency": "XCD",
+      "options": [
+        "Saint Lucia",
+        "Cuba",
+        "El Salvador",
+        "Honduras"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Saint Vincent and the Grenadines",
+      "continent": "NorthAmerica",
+      "area": "389 sq km",
+      "population": "110,872",
+      "language": "English",
+      "currency": "XCD",
+      "options": [
+        "Saint Vincent and the Grenadines",
+        "Dominican Republic",
+        "El Salvador",
+        "Belize"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Trinidad and Tobago",
+      "continent": "NorthAmerica",
+      "area": "5,130 sq km",
+      "population": "1,367,764",
+      "language": "English",
+      "currency": "TTD",
+      "options": [
+        "Trinidad and Tobago",
+        "Jamaica",
+        "Canada",
+        "Belize"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "United States",
+      "continent": "NorthAmerica",
+      "area": "9,525,067 sq km",
+      "population": "340,110,988",
+      "language": "English",
+      "currency": "USD",
+      "options": [
+        "United States",
+        "Haiti",
+        "Jamaica",
+        "Mexico"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Argentina",
+      "continent": "SouthAmerica",
+      "area": "2,780,400 sq km",
+      "population": "46,735,004",
+      "language": "Guaraní",
+      "currency": "ARS",
+      "options": [
+        "Argentina",
+        "Chile",
+        "Peru",
+        "Bolivia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Bolivia",
+      "continent": "SouthAmerica",
+      "area": "1,098,581 sq km",
+      "population": "11,365,333",
+      "language": "Aymara",
+      "currency": "BOB",
+      "options": [
+        "Bolivia",
+        "Guyana",
+        "Uruguay",
+        "Chile"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Brazil",
+      "continent": "SouthAmerica",
+      "area": "8,515,767 sq km",
+      "population": "213,421,037",
+      "language": "Portuguese",
+      "currency": "BRL",
+      "options": [
+        "Brazil",
+        "Paraguay",
+        "Chile",
+        "Peru"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Chile",
+      "continent": "SouthAmerica",
+      "area": "756,102 sq km",
+      "population": "20,206,953",
+      "language": "Spanish",
+      "currency": "CLP",
+      "options": [
+        "Chile",
+        "Ecuador",
+        "Paraguay",
+        "Argentina"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Colombia",
+      "continent": "SouthAmerica",
+      "area": "1,141,748 sq km",
+      "population": "53,057,212",
+      "language": "Spanish",
+      "currency": "COP",
+      "options": [
+        "Colombia",
+        "Chile",
+        "Guyana",
+        "Uruguay"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Ecuador",
+      "continent": "SouthAmerica",
+      "area": "276,841 sq km",
+      "population": "18,103,660",
+      "language": "Spanish",
+      "currency": "USD",
+      "options": [
+        "Ecuador",
+        "Bolivia",
+        "Suriname",
+        "Guyana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Guyana",
+      "continent": "SouthAmerica",
+      "area": "214,969 sq km",
+      "population": "772,975",
+      "language": "English",
+      "currency": "GYD",
+      "options": [
+        "Guyana",
+        "Venezuela",
+        "Bolivia",
+        "Paraguay"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Paraguay",
+      "continent": "SouthAmerica",
+      "area": "406,752 sq km",
+      "population": "6,109,644",
+      "language": "Guaraní",
+      "currency": "PYG",
+      "options": [
+        "Paraguay",
+        "Colombia",
+        "Chile",
+        "Argentina"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Peru",
+      "continent": "SouthAmerica",
+      "area": "1,285,216 sq km",
+      "population": "34,350,244",
+      "language": "Aymara",
+      "currency": "PEN",
+      "options": [
+        "Peru",
+        "Brazil",
+        "Colombia",
+        "Argentina"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Suriname",
+      "continent": "SouthAmerica",
+      "area": "163,820 sq km",
+      "population": "616,500",
+      "language": "Dutch",
+      "currency": "SRD",
+      "options": [
+        "Suriname",
+        "Brazil",
+        "Ecuador",
+        "Peru"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Uruguay",
+      "continent": "SouthAmerica",
+      "area": "181,034 sq km",
+      "population": "3,499,451",
+      "language": "Spanish",
+      "currency": "UYU",
+      "options": [
+        "Uruguay",
+        "Colombia",
+        "Argentina",
+        "Peru"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Venezuela",
+      "continent": "SouthAmerica",
+      "area": "916,445 sq km",
+      "population": "28,517,000",
+      "language": "Spanish",
+      "currency": "VES",
+      "options": [
+        "Venezuela",
+        "Brazil",
+        "Ecuador",
+        "Guyana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Australia",
+      "continent": "Oceania",
+      "area": "7,692,024 sq km",
+      "population": "27,536,874",
+      "language": "English",
+      "currency": "AUD",
+      "options": [
+        "Australia",
+        "Tonga",
+        "Papua New Guinea",
+        "Tuvalu"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Fiji",
+      "continent": "Oceania",
+      "area": "18,272 sq km",
+      "population": "900,869",
+      "language": "English",
+      "currency": "FJD",
+      "options": [
+        "Fiji",
+        "Tuvalu",
+        "Marshall Islands",
+        "Palau"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Kiribati",
+      "continent": "Oceania",
+      "area": "811 sq km",
+      "population": "120,740",
+      "language": "English",
+      "currency": "AUD",
+      "options": [
+        "Kiribati",
+        "Nauru",
+        "Tonga",
+        "Fiji"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Marshall Islands",
+      "continent": "Oceania",
+      "area": "181 sq km",
+      "population": "42,418",
+      "language": "English",
+      "currency": "USD",
+      "options": [
+        "Marshall Islands",
+        "Tonga",
+        "Kiribati",
+        "New Zealand"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Micronesia",
+      "continent": "Oceania",
+      "area": "702 sq km",
+      "population": "105,564",
+      "language": "English",
+      "currency": "USD",
+      "options": [
+        "Micronesia",
+        "Tuvalu",
+        "Samoa",
+        "Palau"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Nauru",
+      "continent": "Oceania",
+      "area": "21 sq km",
+      "population": "11,680",
+      "language": "English",
+      "currency": "AUD",
+      "options": [
+        "Nauru",
+        "Solomon Islands",
+        "Samoa",
+        "Fiji"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "New Zealand",
+      "continent": "Oceania",
+      "area": "268,838 sq km",
+      "population": "5,324,700",
+      "language": "English",
+      "currency": "NZD",
+      "options": [
+        "New Zealand",
+        "Fiji",
+        "Vanuatu",
+        "Papua New Guinea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Palau",
+      "continent": "Oceania",
+      "area": "459 sq km",
+      "population": "16,733",
+      "language": "English",
+      "currency": "USD",
+      "options": [
+        "Palau",
+        "Tuvalu",
+        "Papua New Guinea",
+        "Vanuatu"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Papua New Guinea",
+      "continent": "Oceania",
+      "area": "462,840 sq km",
+      "population": "11,781,559",
+      "language": "English",
+      "currency": "PGK",
+      "options": [
+        "Papua New Guinea",
+        "Palau",
+        "Micronesia",
+        "Nauru"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Samoa",
+      "continent": "Oceania",
+      "area": "2,842 sq km",
+      "population": "205,557",
+      "language": "English",
+      "currency": "WST",
+      "options": [
+        "Samoa",
+        "Fiji",
+        "Palau",
+        "Australia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Solomon Islands",
+      "continent": "Oceania",
+      "area": "28,896 sq km",
+      "population": "750,325",
+      "language": "English",
+      "currency": "SBD",
+      "options": [
+        "Solomon Islands",
+        "Australia",
+        "New Zealand",
+        "Samoa"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Tonga",
+      "continent": "Oceania",
+      "area": "747 sq km",
+      "population": "100,179",
+      "language": "English",
+      "currency": "TOP",
+      "options": [
+        "Tonga",
+        "Micronesia",
+        "Nauru",
+        "New Zealand"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Tuvalu",
+      "continent": "Oceania",
+      "area": "26 sq km",
+      "population": "10,643",
+      "language": "English",
+      "currency": "AUD",
+      "options": [
+        "Tuvalu",
+        "Marshall Islands",
+        "Papua New Guinea",
+        "Nauru"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Vanuatu",
+      "continent": "Oceania",
+      "area": "12,189 sq km",
+      "population": "321,409",
+      "language": "Bislama",
+      "currency": "VUV",
+      "options": [
+        "Vanuatu",
+        "Fiji",
+        "Samoa",
+        "Micronesia"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}
