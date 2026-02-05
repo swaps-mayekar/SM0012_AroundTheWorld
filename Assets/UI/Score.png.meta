@@ -139,12 +139,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 243
-        y: 104
+        y: 247
         width: 1078
-        height: 868
+        height: 725
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 386, y: 398, z: 386, w: 337}
+      border: {x: 386, y: 281, z: 386, w: 344}
       customData: 
       outline: []
       physicsShape: []

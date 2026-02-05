@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 namespace AroundTheWorld
 {
@@ -22,32 +23,66 @@ namespace AroundTheWorld
         [SerializeField] private Image flagImage;
         [SerializeField] private Button[] optionButtons;
         [SerializeField] private TMP_Text[] optionLabels;
-        [SerializeField] private Button submitButton;
+        private Button submitButton;
         [SerializeField] private GameObject gameplayPanel;
         [SerializeField] private GameObject summaryPanel;
         [SerializeField] private TMP_Text summaryText;
-        [SerializeField] private TMP_Text scoreText;
-        [SerializeField] private TMP_Text feedbackText;
+        [SerializeField] private TMP_Text scoreText, streakText;
+        [SerializeField] private TMP_Text resultText;
+        [SerializeField] private RectTransform optionsPanelTransform;
+        [SerializeField] private CanvasGroup optionsCanvasGroup;
+        [SerializeField] private CanvasGroup gameplayCanvasGroup;
+        [SerializeField] private CanvasGroup summaryCanvasGroup;
 
         [Header("Option Colors")]
         [SerializeField] private Color normalOptionColor = Color.white;
         [SerializeField] private Color selectedOptionColor = new Color(0.85f, 0.9f, 1f, 1f);
 
-        [Header("Feedback")]
-        [SerializeField] private float feedbackDuration = 1.25f;
+        [Header("Question Animation")]
+        [SerializeField] private bool playQuestionIntroAnimation = true;
+        [SerializeField] private float questionAnimDuration = 0.2f;
+        [SerializeField] private float questionStartScale = 0.96f;
+
+        [Header("Round Settings")]
+        [SerializeField] private int questionsPerRound = 10;
+        [SerializeField] private float panelFadeDuration = 0.25f;
 
         private readonly List<FlagQuestion> _questions = new List<FlagQuestion>();
         private readonly Dictionary<string, Sprite> _flagSpriteLookup = new Dictionary<string, Sprite>(StringComparer.OrdinalIgnoreCase);
         private int _currentQuestionIndex;
+        private int _roundQuestionCount;
         private int _selectedOptionIndex = -1;
         private int _correctCount;
         private int _answeredCount;
-        private Coroutine _feedbackRoutine;
+        private int _score;
+        private int _streak = 1;
+        private bool _lastAnswerCorrect;
+        private Coroutine _questionAnimRoutine;
+        private Coroutine _panelFadeRoutine;
         private string[] _currentOptions = Array.Empty<string>();
         private int _currentCorrectIndex = -1;
 
         private void Awake()
         {
+            if (optionsPanelTransform == null && optionButtons != null && optionButtons.Length > 0 && optionButtons[0] != null)
+            {
+                optionsPanelTransform = optionButtons[0].transform.parent as RectTransform;
+            }
+
+            if (optionsCanvasGroup == null && optionsPanelTransform != null)
+            {
+                optionsCanvasGroup = optionsPanelTransform.GetComponent<CanvasGroup>();
+            }
+
+            if (gameplayCanvasGroup == null && gameplayPanel != null)
+            {
+                gameplayCanvasGroup = gameplayPanel.GetComponent<CanvasGroup>();
+            }
+
+            if (summaryCanvasGroup == null && summaryPanel != null)
+            {
+                summaryCanvasGroup = summaryPanel.GetComponent<CanvasGroup>();
+            }
             BuildFlagSpriteLookup();
         }
 
@@ -86,14 +121,20 @@ namespace AroundTheWorld
             if (isCorrect)
             {
                 _correctCount++;
+                UpdateStreakOnCorrect();
+                _score += CalculatePointsForStreak(_streak);
+            }
+            else
+            {
+                _streak = 1;
+                _lastAnswerCorrect = false;
             }
 
             _answeredCount++;
-            ShowFeedback(isCorrect);
             UpdateScoreUI();
 
             _currentQuestionIndex++;
-            if (_currentQuestionIndex >= _questions.Count)
+            if (_currentQuestionIndex >= _roundQuestionCount)
             {
                 EndRound();
                 return;
@@ -111,6 +152,12 @@ namespace AroundTheWorld
             _selectedOptionIndex = -1;
             _correctCount = 0;
             _answeredCount = 0;
+            _score = 0;
+            _streak = 1;
+            _lastAnswerCorrect = false;
+            _roundQuestionCount = _questions.Count == 0
+                ? 0
+                : Mathf.Min(Mathf.Max(1, questionsPerRound), _questions.Count);
 
             if (summaryPanel != null)
             {
@@ -120,6 +167,16 @@ namespace AroundTheWorld
             if (gameplayPanel != null)
             {
                 gameplayPanel.SetActive(true);
+            }
+
+            if (gameplayCanvasGroup != null)
+            {
+                gameplayCanvasGroup.alpha = 1f;
+            }
+
+            if (summaryCanvasGroup != null)
+            {
+                summaryCanvasGroup.alpha = 0f;
             }
 
             UpdateOptionColors();
@@ -192,6 +249,7 @@ namespace AroundTheWorld
             var question = _questions[_currentQuestionIndex];
             UpdateFlagImage(question.flagImageName);
             PrepareAndShowOptions(question);
+            PlayQuestionIntroAnimation();
         }
 
         private void PrepareAndShowOptions(FlagQuestion question)
@@ -264,6 +322,85 @@ namespace AroundTheWorld
                 {
                     optionLabels[i].text = hasOption ? options[i] : string.Empty;
                 }
+            }
+        }
+
+        private void PlayQuestionIntroAnimation()
+        {
+            if (!playQuestionIntroAnimation)
+            {
+                return;
+            }
+
+            if (_questionAnimRoutine != null)
+            {
+                StopCoroutine(_questionAnimRoutine);
+            }
+
+            _questionAnimRoutine = StartCoroutine(QuestionIntroRoutine());
+        }
+
+        private IEnumerator QuestionIntroRoutine()
+        {
+            float duration = Mathf.Max(0.05f, questionAnimDuration);
+            float elapsed = 0f;
+
+            RectTransform flagRect = flagImage != null ? flagImage.rectTransform : null;
+            Vector3 startScale = flagRect != null ? Vector3.one * questionStartScale : Vector3.one;
+            Vector3 optionsStartScale = optionsPanelTransform != null ? Vector3.one * questionStartScale : Vector3.one;
+
+            if (flagRect != null)
+            {
+                flagRect.localScale = startScale;
+            }
+
+            if (optionsPanelTransform != null)
+            {
+                optionsPanelTransform.localScale = optionsStartScale;
+            }
+
+            if (optionsCanvasGroup != null)
+            {
+                optionsCanvasGroup.alpha = 0f;
+            }
+
+            while (elapsed < duration)
+            {
+                elapsed += Time.unscaledDeltaTime;
+                float t = Mathf.Clamp01(elapsed / duration);
+                float eased = t * t * (3f - 2f * t);
+
+                if (flagRect != null)
+                {
+                    flagRect.localScale = Vector3.Lerp(startScale, Vector3.one, eased);
+                }
+
+                if (optionsPanelTransform != null)
+                {
+                    optionsPanelTransform.localScale = Vector3.Lerp(optionsStartScale, Vector3.one, eased);
+                }
+
+                if (optionsCanvasGroup != null)
+                {
+                    optionsCanvasGroup.alpha = Mathf.Lerp(0f, 1f, eased);
+                }
+
+                yield return null;
+            }
+
+            if (flagRect != null)
+            {
+                flagRect.localScale = Vector3.one;
+            }
+
+            if (optionsPanelTransform != null)
+            {
+                optionsPanelTransform.localScale = Vector3.one;
+            }
+
+            if (optionsCanvasGroup != null)
+            {
+                optionsCanvasGroup.alpha = 1f;
             }
         }
 
@@ -371,56 +508,35 @@ namespace AroundTheWorld
                 .ToLowerInvariant();
         }
 
-        private void ShowFeedback(bool isCorrect)
-        {
-            if (feedbackText == null)
-            {
-                return;
-            }
-
-            string message = isCorrect ? "Correct!" : GetWrongAnswerMessage();
-            if (_feedbackRoutine != null)
-            {
-                StopCoroutine(_feedbackRoutine);
-            }
-
-            _feedbackRoutine = StartCoroutine(ShowFeedbackRoutine(message));
-        }
-
-        private IEnumerator ShowFeedbackRoutine(string message)
-        {
-            feedbackText.gameObject.SetActive(true);
-            feedbackText.text = message;
-            yield return new WaitForSecondsRealtime(feedbackDuration);
-            feedbackText.gameObject.SetActive(false);
-        }
-
-        private string GetWrongAnswerMessage()
-        {
-            if (_currentOptions == null || _currentOptions.Length == 0)
-            {
-                return "Wrong!";
-            }
-
-            int correctIndex = Mathf.Clamp(_currentCorrectIndex, 0, _currentOptions.Length - 1);
-            return "Wrong! Correct: " + _currentOptions[correctIndex];
-        }
-
         private void UpdateScoreUI()
         {
-            if (scoreText == null)
+            if (scoreText != null)
             {
-                return;
+                scoreText.text = _score.ToString();
             }
 
-            scoreText.text = "Score: " + _correctCount + " / " + _answeredCount;
+            if (streakText != null)
+            {
+                streakText.text = "Streak:\n" + _streak + "x";
+            }
         }
 
         private void EndRound()
         {
-            if (gameplayPanel != null)
+            if (_panelFadeRoutine != null)
             {
-                gameplayPanel.SetActive(false);
+                StopCoroutine(_panelFadeRoutine);
+            }
+
+            _panelFadeRoutine = StartCoroutine(FadeToSummaryRoutine());
+        }
+
+        private IEnumerator FadeToSummaryRoutine()
+        {
+            TMP_Text targetText = resultText != null ? resultText : summaryText;
+            if (targetText != null)
+            {
+                targetText.text = "Congratulations!\nScore: " + _score;
             }
 
             if (summaryPanel != null)
@@ -428,10 +544,58 @@ namespace AroundTheWorld
                 summaryPanel.SetActive(true);
             }
 
-            if (summaryText != null)
+            float duration = Mathf.Max(0.05f, panelFadeDuration);
+            float elapsed = 0f;
+
+            if (summaryCanvasGroup != null)
             {
-                summaryText.text = "Round complete!\nScore: " + _correctCount + " / " + _answeredCount;
+                summaryCanvasGroup.alpha = 0f;
             }
+
+            while (elapsed < duration)
+            {
+                elapsed += Time.unscaledDeltaTime;
+                float t = Mathf.Clamp01(elapsed / duration);
+
+                if (gameplayCanvasGroup != null)
+                {
+                    gameplayCanvasGroup.alpha = 1f - t;
+                }
+
+                if (summaryCanvasGroup != null)
+                {
+                    summaryCanvasGroup.alpha = t;
+                }
+
+                yield return null;
+            }
+
+            if (gameplayCanvasGroup != null)
+            {
+                gameplayCanvasGroup.alpha = 0f;
+            }
+
+            if (summaryCanvasGroup != null)
+            {
+                summaryCanvasGroup.alpha = 1f;
+            }
+
+            if (gameplayPanel != null)
+            {
+                gameplayPanel.SetActive(false);
+            }
+        }
+
+        private void UpdateStreakOnCorrect()
+        {
+            _streak = _lastAnswerCorrect ? _streak + 1 : 1;
+            _lastAnswerCorrect = true;
+        }
+
+        private int CalculatePointsForStreak(int streak)
+        {
+            int multiplier = Mathf.Max(1, streak - 1);
+            return 10 * multiplier;
         }
 
         private void UpdateSubmitInteractivity()
@@ -442,6 +606,11 @@ namespace AroundTheWorld
             }
 
             submitButton.interactable = _selectedOptionIndex >= 0;
+        }
+
+        public void OnClick_BackToMenu()
+        {
+            SceneManager.LoadScene("1_MenuScene");
         }
 
         [Serializable]
