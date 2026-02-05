@@ -1,0 +1,1742 @@
+{
+  "questions": [
+    {
+      "countryName": "Algeria",
+      "continent": "Africa",
+      "options": [
+        "Mali",
+        "Mauritius",
+        "Guinea-Bissau",
+        "Kenya"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Angola",
+      "continent": "Africa",
+      "options": [
+        "Congo",
+        "Malawi",
+        "Guinea",
+        "Egypt"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Benin",
+      "continent": "Africa",
+      "options": [
+        "Niger",
+        "Guinea-Bissau",
+        "Gabon",
+        "Democratic Republic of the Congo"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Botswana",
+      "continent": "Africa",
+      "options": [
+        "South Africa",
+        "Uganda",
+        "Madagascar",
+        "Cabo Verde"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Burkina Faso",
+      "continent": "Africa",
+      "options": [
+        "Mali",
+        "Madagascar",
+        "Morocco",
+        "Lesotho"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Burundi",
+      "continent": "Africa",
+      "options": [
+        "Tanzania",
+        "Morocco",
+        "Congo",
+        "Seychelles"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Cameroon",
+      "continent": "Africa",
+      "options": [
+        "Nigeria",
+        "Eritrea",
+        "Cote d'Ivoire",
+        "Malawi"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Central African Republic",
+      "continent": "Africa",
+      "options": [
+        "Cameroon",
+        "Libya",
+        "Eswatini",
+        "Mozambique"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Chad",
+      "continent": "Africa",
+      "options": [
+        "Nigeria",
+        "Ethiopia",
+        "Eswatini",
+        "Seychelles"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Congo",
+      "continent": "Africa",
+      "options": [
+        "DR Congo",
+        "Ethiopia",
+        "Zimbabwe",
+        "Mauritius"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Democratic Republic of the Congo",
+      "continent": "Africa",
+      "options": [
+        "Burundi",
+        "Cabo Verde",
+        "Liberia",
+        "Botswana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Cote d'Ivoire",
+      "continent": "Africa",
+      "options": [
+        "Burkina Faso",
+        "Sudan",
+        "Uganda",
+        "Mauritania"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Djibouti",
+      "continent": "Africa",
+      "options": [
+        "Ethiopia",
+        "Rwanda",
+        "Angola",
+        "Sierra Leone"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Egypt",
+      "continent": "Africa",
+      "options": [
+        "Palestine",
+        "Seychelles",
+        "Guinea",
+        "Rwanda"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Equatorial Guinea",
+      "continent": "Africa",
+      "options": [
+        "Gabon",
+        "Libya",
+        "Rwanda",
+        "Namibia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Eritrea",
+      "continent": "Africa",
+      "options": [
+        "Sudan",
+        "Angola",
+        "Equatorial Guinea",
+        "Sao Tome and Principe"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Eswatini",
+      "continent": "Africa",
+      "options": [
+        "Mozambique",
+        "Libya",
+        "Democratic Republic of the Congo",
+        "Algeria"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Ethiopia",
+      "continent": "Africa",
+      "options": [
+        "Kenya",
+        "Niger",
+        "Libya",
+        "Cote d'Ivoire"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Gabon",
+      "continent": "Africa",
+      "options": [
+        "Congo",
+        "Tanzania",
+        "Djibouti",
+        "Niger"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Gambia",
+      "continent": "Africa",
+      "options": [
+        "Senegal",
+        "Algeria",
+        "Sierra Leone",
+        "Burkina Faso"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Ghana",
+      "continent": "Africa",
+      "options": [
+        "Togo",
+        "Seychelles",
+        "Djibouti",
+        "South Africa"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Guinea",
+      "continent": "Africa",
+      "options": [
+        "Mali",
+        "Morocco",
+        "Angola",
+        "Cote d'Ivoire"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Guinea-Bissau",
+      "continent": "Africa",
+      "options": [
+        "Senegal",
+        "Kenya",
+        "Cameroon",
+        "Congo"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Kenya",
+      "continent": "Africa",
+      "options": [
+        "Ethiopia",
+        "Democratic Republic of the Congo",
+        "Rwanda",
+        "Mauritania"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Lesotho",
+      "continent": "Africa",
+      "options": [
+        "South Africa",
+        "Cameroon",
+        "Sao Tome and Principe",
+        "Senegal"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Liberia",
+      "continent": "Africa",
+      "options": [
+        "Ivory Coast",
+        "Sudan",
+        "Senegal",
+        "Mozambique"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Libya",
+      "continent": "Africa",
+      "options": [
+        "Sudan",
+        "Sierra Leone",
+        "Gambia",
+        "Cabo Verde"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Malawi",
+      "continent": "Africa",
+      "options": [
+        "Mozambique",
+        "Senegal",
+        "Madagascar",
+        "Egypt"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Mali",
+      "continent": "Africa",
+      "options": [
+        "Ivory Coast",
+        "Guinea-Bissau",
+        "Rwanda",
+        "Zambia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Mauritania",
+      "continent": "Africa",
+      "options": [
+        "Senegal",
+        "Eswatini",
+        "Morocco",
+        "Botswana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Morocco",
+      "continent": "Africa",
+      "options": [
+        "Algeria",
+        "Burkina Faso",
+        "Mauritius",
+        "Equatorial Guinea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Mozambique",
+      "continent": "Africa",
+      "options": [
+        "Eswatini",
+        "Mauritania",
+        "Morocco",
+        "Senegal"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Namibia",
+      "continent": "Africa",
+      "options": [
+        "Zambia",
+        "Djibouti",
+        "Algeria",
+        "Comoros"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Niger",
+      "continent": "Africa",
+      "options": [
+        "Benin",
+        "Djibouti",
+        "Central African Republic",
+        "Sao Tome and Principe"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Nigeria",
+      "continent": "Africa",
+      "options": [
+        "Cameroon",
+        "Eritrea",
+        "Algeria",
+        "Mauritania"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Rwanda",
+      "continent": "Africa",
+      "options": [
+        "Tanzania",
+        "Sudan",
+        "Senegal",
+        "Guinea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Senegal",
+      "continent": "Africa",
+      "options": [
+        "Mali",
+        "Zimbabwe",
+        "Sao Tome and Principe",
+        "Ghana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Sierra Leone",
+      "continent": "Africa",
+      "options": [
+        "Guinea",
+        "Namibia",
+        "Morocco",
+        "Senegal"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Somalia",
+      "continent": "Africa",
+      "options": [
+        "Ethiopia",
+        "Cote d'Ivoire",
+        "Mali",
+        "Eritrea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "South Africa",
+      "continent": "Africa",
+      "options": [
+        "Lesotho",
+        "Central African Republic",
+        "Morocco",
+        "Mauritania"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "South Sudan",
+      "continent": "Africa",
+      "options": [
+        "Ethiopia",
+        "Cabo Verde",
+        "Equatorial Guinea",
+        "Mauritania"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Sudan",
+      "continent": "Africa",
+      "options": [
+        "Libya",
+        "Gabon",
+        "Cabo Verde",
+        "Nigeria"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Tanzania",
+      "continent": "Africa",
+      "options": [
+        "Rwanda",
+        "Cote d'Ivoire",
+        "Nigeria",
+        "Botswana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Togo",
+      "continent": "Africa",
+      "options": [
+        "Benin",
+        "Cote d'Ivoire",
+        "Namibia",
+        "Lesotho"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Tunisia",
+      "continent": "Africa",
+      "options": [
+        "Libya",
+        "Liberia",
+        "Eritrea",
+        "Botswana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Uganda",
+      "continent": "Africa",
+      "options": [
+        "DR Congo",
+        "Ethiopia",
+        "Comoros",
+        "Mauritius"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Zambia",
+      "continent": "Africa",
+      "options": [
+        "DR Congo",
+        "Central African Republic",
+        "Burkina Faso",
+        "Madagascar"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Zimbabwe",
+      "continent": "Africa",
+      "options": [
+        "Botswana",
+        "Niger",
+        "Algeria",
+        "Tunisia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Afghanistan",
+      "continent": "Asia",
+      "options": [
+        "Tajikistan",
+        "India",
+        "Singapore",
+        "United Arab Emirates"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Armenia",
+      "continent": "Asia",
+      "options": [
+        "Türkiye",
+        "Yemen",
+        "Vietnam",
+        "Turkmenistan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Azerbaijan",
+      "continent": "Asia",
+      "options": [
+        "Iran",
+        "Timor-Leste",
+        "Nepal",
+        "Bahrain"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Bangladesh",
+      "continent": "Asia",
+      "options": [
+        "Myanmar",
+        "Mongolia",
+        "Yemen",
+        "Azerbaijan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Bhutan",
+      "continent": "Asia",
+      "options": [
+        "China",
+        "Yemen",
+        "Singapore",
+        "Nepal"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Brunei",
+      "continent": "Asia",
+      "options": [
+        "Malaysia",
+        "Syria",
+        "Iraq",
+        "Iran"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Cambodia",
+      "continent": "Asia",
+      "options": [
+        "Laos",
+        "Timor-Leste",
+        "Israel",
+        "Japan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "China",
+      "continent": "Asia",
+      "options": [
+        "Vietnam",
+        "Syria",
+        "Iraq",
+        "Qatar"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Georgia",
+      "continent": "Europe",
+      "options": [
+        "Russia",
+        "Italy",
+        "Andorra",
+        "Croatia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "India",
+      "continent": "Asia",
+      "options": [
+        "Myanmar",
+        "Mongolia",
+        "Philippines",
+        "Vietnam"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Indonesia",
+      "continent": "Asia",
+      "options": [
+        "Malaysia",
+        "Philippines",
+        "Vietnam",
+        "Kazakhstan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Iran",
+      "continent": "Asia",
+      "options": [
+        "Pakistan",
+        "Qatar",
+        "Philippines",
+        "Yemen"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Iraq",
+      "continent": "Asia",
+      "options": [
+        "Iran",
+        "Kyrgyzstan",
+        "Lebanon",
+        "Tajikistan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Israel",
+      "continent": "Asia",
+      "options": [
+        "Palestine",
+        "Malaysia",
+        "Kyrgyzstan",
+        "Sri Lanka"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Jordan",
+      "continent": "Asia",
+      "options": [
+        "Israel",
+        "Indonesia",
+        "Cambodia",
+        "Vietnam"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Kazakhstan",
+      "continent": "Asia",
+      "options": [
+        "Turkmenistan",
+        "Saudi Arabia",
+        "Thailand",
+        "Nepal"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Kuwait",
+      "continent": "Asia",
+      "options": [
+        "Iraq",
+        "Mongolia",
+        "Malaysia",
+        "Thailand"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Kyrgyzstan",
+      "continent": "Asia",
+      "options": [
+        "Uzbekistan",
+        "Qatar",
+        "Kuwait",
+        "Thailand"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Laos",
+      "continent": "Asia",
+      "options": [
+        "China",
+        "Mongolia",
+        "Lebanon",
+        "Tajikistan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Lebanon",
+      "continent": "Asia",
+      "options": [
+        "Syria",
+        "Thailand",
+        "Pakistan",
+        "Mongolia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Malaysia",
+      "continent": "Asia",
+      "options": [
+        "Indonesia",
+        "Cambodia",
+        "South Korea",
+        "Armenia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Mongolia",
+      "continent": "Asia",
+      "options": [
+        "China",
+        "Syria",
+        "Brunei",
+        "Azerbaijan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Myanmar",
+      "continent": "Asia",
+      "options": [
+        "India",
+        "Tajikistan",
+        "Afghanistan",
+        "Bahrain"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Nepal",
+      "continent": "Asia",
+      "options": [
+        "China",
+        "Mongolia",
+        "Singapore",
+        "Uzbekistan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "North Korea",
+      "continent": "Asia",
+      "options": [
+        "South Korea",
+        "Nepal",
+        "Thailand",
+        "Kuwait"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Oman",
+      "continent": "Asia",
+      "options": [
+        "Yemen",
+        "Philippines",
+        "Lebanon",
+        "Kyrgyzstan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Pakistan",
+      "continent": "Asia",
+      "options": [
+        "Iran",
+        "Qatar",
+        "Azerbaijan",
+        "Thailand"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Qatar",
+      "continent": "Asia",
+      "options": [
+        "Saudi Arabia",
+        "Tajikistan",
+        "Singapore",
+        "Yemen"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Saudi Arabia",
+      "continent": "Asia",
+      "options": [
+        "Kuwait",
+        "Indonesia",
+        "Israel",
+        "Kyrgyzstan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "South Korea",
+      "continent": "Asia",
+      "options": [
+        "North Korea",
+        "Israel",
+        "Thailand",
+        "Sri Lanka"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Sri Lanka",
+      "continent": "Asia",
+      "options": [
+        "India",
+        "Qatar",
+        "Lebanon",
+        "Brunei"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Syria",
+      "continent": "Asia",
+      "options": [
+        "Israel",
+        "Malaysia",
+        "Philippines",
+        "Maldives"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Tajikistan",
+      "continent": "Asia",
+      "options": [
+        "China",
+        "Armenia",
+        "Iran",
+        "Mongolia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Thailand",
+      "continent": "Asia",
+      "options": [
+        "Laos",
+        "Pakistan",
+        "Sri Lanka",
+        "Bangladesh"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Timor-Leste",
+      "continent": "Asia",
+      "options": [
+        "Indonesia",
+        "Vietnam",
+        "Tajikistan",
+        "Turkmenistan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Turkey",
+      "continent": "Asia",
+      "options": [
+        "Greece",
+        "Kuwait",
+        "Bangladesh",
+        "Tajikistan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Turkmenistan",
+      "continent": "Asia",
+      "options": [
+        "Iran",
+        "Myanmar",
+        "Yemen",
+        "Brunei"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "United Arab Emirates",
+      "continent": "Asia",
+      "options": [
+        "Oman",
+        "Laos",
+        "China",
+        "Tajikistan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Uzbekistan",
+      "continent": "Asia",
+      "options": [
+        "Kazakhstan",
+        "Thailand",
+        "Kuwait",
+        "Japan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Vietnam",
+      "continent": "Asia",
+      "options": [
+        "China",
+        "Qatar",
+        "Syria",
+        "Jordan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Yemen",
+      "continent": "Asia",
+      "options": [
+        "Saudi Arabia",
+        "Maldives",
+        "Iraq",
+        "Indonesia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Albania",
+      "continent": "Europe",
+      "options": [
+        "Kosovo",
+        "Bosnia and Herzegovina",
+        "Slovenia",
+        "Switzerland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Andorra",
+      "continent": "Europe",
+      "options": [
+        "France",
+        "Estonia",
+        "Croatia",
+        "Montenegro"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Austria",
+      "continent": "Europe",
+      "options": [
+        "Liechtenstein",
+        "France",
+        "Latvia",
+        "Poland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Belarus",
+      "continent": "Europe",
+      "options": [
+        "Latvia",
+        "Belgium",
+        "Ireland",
+        "Denmark"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Belgium",
+      "continent": "Europe",
+      "options": [
+        "Netherlands",
+        "Latvia",
+        "Poland",
+        "Spain"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Bosnia and Herzegovina",
+      "continent": "Europe",
+      "options": [
+        "Montenegro",
+        "Netherlands",
+        "Albania",
+        "Greece"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Bulgaria",
+      "continent": "Europe",
+      "options": [
+        "North Macedonia",
+        "Ireland",
+        "Liechtenstein",
+        "San Marino"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Croatia",
+      "continent": "Europe",
+      "options": [
+        "Serbia",
+        "Estonia",
+        "Northern Ireland",
+        "Spain"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Czechia",
+      "continent": "Europe",
+      "options": [
+        "Germany",
+        "England",
+        "Croatia",
+        "Scotland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Denmark",
+      "continent": "Europe",
+      "options": [
+        "Germany",
+        "England",
+        "Czechia",
+        "Monaco"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Estonia",
+      "continent": "Europe",
+      "options": [
+        "Russia",
+        "Switzerland",
+        "Iceland",
+        "Scotland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Finland",
+      "continent": "Europe",
+      "options": [
+        "Norway",
+        "Slovenia",
+        "Serbia",
+        "Hungary"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "France",
+      "continent": "Europe",
+      "options": [
+        "Switzerland",
+        "Czechia",
+        "Denmark",
+        "Sweden"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Germany",
+      "continent": "Europe",
+      "options": [
+        "Belgium",
+        "England",
+        "San Marino",
+        "Moldova"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Greece",
+      "continent": "Europe",
+      "options": [
+        "Bulgaria",
+        "Sweden",
+        "Serbia",
+        "Czechia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Hungary",
+      "continent": "Europe",
+      "options": [
+        "Slovenia",
+        "Sweden",
+        "Wales",
+        "Switzerland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Ireland",
+      "continent": "Europe",
+      "options": [
+        "United Kingdom",
+        "Liechtenstein",
+        "Belarus",
+        "Montenegro"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Italy",
+      "continent": "Europe",
+      "options": [
+        "Vatican City",
+        "Cyprus",
+        "Romania",
+        "Spain"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Latvia",
+      "continent": "Europe",
+      "options": [
+        "Lithuania",
+        "Germany",
+        "Slovenia",
+        "Sweden"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Liechtenstein",
+      "continent": "Europe",
+      "options": [
+        "Austria",
+        "Belgium",
+        "Bulgaria",
+        "Norway"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Lithuania",
+      "continent": "Europe",
+      "options": [
+        "Belarus",
+        "Liechtenstein",
+        "Monaco",
+        "Hungary"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Luxembourg",
+      "continent": "Europe",
+      "options": [
+        "Germany",
+        "Norway",
+        "England",
+        "Austria"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Moldova",
+      "continent": "Europe",
+      "options": [
+        "Romania",
+        "Switzerland",
+        "Luxembourg",
+        "Georgia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Monaco",
+      "continent": "Europe",
+      "options": [
+        "France",
+        "Finland",
+        "Scotland",
+        "Russia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Montenegro",
+      "continent": "Europe",
+      "options": [
+        "Bosnia and Herzegovina",
+        "Estonia",
+        "Lithuania",
+        "Ireland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Netherlands",
+      "continent": "Europe",
+      "options": [
+        "Belgium",
+        "Bulgaria",
+        "Italy",
+        "Monaco"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "North Macedonia",
+      "continent": "Europe",
+      "options": [
+        "Albania",
+        "Italy",
+        "Malta",
+        "Liechtenstein"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Norway",
+      "continent": "Europe",
+      "options": [
+        "Finland",
+        "Lithuania",
+        "Ukraine",
+        "Monaco"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Poland",
+      "continent": "Europe",
+      "options": [
+        "Czechia",
+        "Iceland",
+        "Northern Ireland",
+        "North Macedonia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Portugal",
+      "continent": "Europe",
+      "options": [
+        "Spain",
+        "Switzerland",
+        "Ukraine",
+        "Poland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Romania",
+      "continent": "Europe",
+      "options": [
+        "Bulgaria",
+        "San Marino",
+        "Ireland",
+        "Wales"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Russia",
+      "continent": "Europe",
+      "options": [
+        "Kazakhstan",
+        "Moldova",
+        "France",
+        "Belgium"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "San Marino",
+      "continent": "Europe",
+      "options": [
+        "Italy",
+        "Bosnia and Herzegovina",
+        "Romania",
+        "Luxembourg"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Serbia",
+      "continent": "Europe",
+      "options": [
+        "Kosovo",
+        "San Marino",
+        "Monaco",
+        "Wales"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Slovakia",
+      "continent": "Europe",
+      "options": [
+        "Poland",
+        "Luxembourg",
+        "Slovenia",
+        "Andorra"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Slovenia",
+      "continent": "Europe",
+      "options": [
+        "Austria",
+        "Netherlands",
+        "Greece",
+        "Lithuania"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Spain",
+      "continent": "Europe",
+      "options": [
+        "Gibraltar",
+        "Georgia",
+        "Russia",
+        "North Macedonia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Sweden",
+      "continent": "Europe",
+      "options": [
+        "Norway",
+        "San Marino",
+        "Scotland",
+        "Portugal"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Switzerland",
+      "continent": "Europe",
+      "options": [
+        "Germany",
+        "Montenegro",
+        "Ukraine",
+        "Bulgaria"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Ukraine",
+      "continent": "Europe",
+      "options": [
+        "Hungary",
+        "Scotland",
+        "Malta",
+        "Georgia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "England",
+      "continent": "Europe",
+      "options": [
+        "Ireland",
+        "Luxembourg",
+        "Montenegro",
+        "Monaco"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Northern Ireland",
+      "continent": "Europe",
+      "options": [
+        "Ireland",
+        "France",
+        "Hungary",
+        "Moldova"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Scotland",
+      "continent": "Europe",
+      "options": [
+        "Ireland",
+        "Greece",
+        "Czechia",
+        "Portugal"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Wales",
+      "continent": "Europe",
+      "options": [
+        "Ireland",
+        "Lithuania",
+        "Croatia",
+        "Iceland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Belize",
+      "continent": "NorthAmerica",
+      "options": [
+        "Guatemala",
+        "Jamaica",
+        "Costa Rica",
+        "Canada"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Canada",
+      "continent": "NorthAmerica",
+      "options": [
+        "United States",
+        "Mexico",
+        "Antigua and Barbuda",
+        "Saint Vincent and the Grenadines"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Costa Rica",
+      "continent": "NorthAmerica",
+      "options": [
+        "Panama",
+        "Antigua and Barbuda",
+        "Saint Vincent and the Grenadines",
+        "Bahamas"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Dominican Republic",
+      "continent": "NorthAmerica",
+      "options": [
+        "Haiti",
+        "Bahamas",
+        "Nicaragua",
+        "Belize"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "El Salvador",
+      "continent": "NorthAmerica",
+      "options": [
+        "Guatemala",
+        "Bahamas",
+        "Haiti",
+        "Panama"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Guatemala",
+      "continent": "NorthAmerica",
+      "options": [
+        "Honduras",
+        "Jamaica",
+        "Antigua and Barbuda",
+        "Saint Kitts and Nevis"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Haiti",
+      "continent": "NorthAmerica",
+      "options": [
+        "Dominican Republic",
+        "Nicaragua",
+        "Grenada",
+        "Panama"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Honduras",
+      "continent": "NorthAmerica",
+      "options": [
+        "El Salvador",
+        "Mexico",
+        "United States",
+        "Antigua and Barbuda"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Mexico",
+      "continent": "NorthAmerica",
+      "options": [
+        "Guatemala",
+        "Cuba",
+        "Antigua and Barbuda",
+        "Honduras"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Nicaragua",
+      "continent": "NorthAmerica",
+      "options": [
+        "Costa Rica",
+        "United States",
+        "Antigua and Barbuda",
+        "Belize"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Panama",
+      "continent": "NorthAmerica",
+      "options": [
+        "Costa Rica",
+        "Trinidad and Tobago",
+        "Saint Lucia",
+        "El Salvador"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "United States",
+      "continent": "NorthAmerica",
+      "options": [
+        "Mexico",
+        "Honduras",
+        "Jamaica",
+        "Barbados"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Argentina",
+      "continent": "SouthAmerica",
+      "options": [
+        "Paraguay",
+        "Guyana",
+        "Peru",
+        "Ecuador"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Bolivia",
+      "continent": "SouthAmerica",
+      "options": [
+        "Argentina",
+        "Suriname",
+        "Uruguay",
+        "Colombia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Brazil",
+      "continent": "SouthAmerica",
+      "options": [
+        "Argentina",
+        "Ecuador",
+        "Chile",
+        "Niger"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Chile",
+      "continent": "SouthAmerica",
+      "options": [
+        "Bolivia",
+        "Brazil",
+        "Suriname",
+        "Paraguay"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Colombia",
+      "continent": "SouthAmerica",
+      "options": [
+        "Venezuela",
+        "Uruguay",
+        "Chile",
+        "Guyana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Ecuador",
+      "continent": "SouthAmerica",
+      "options": [
+        "Colombia",
+        "Argentina",
+        "Brazil",
+        "Chile"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Guyana",
+      "continent": "SouthAmerica",
+      "options": [
+        "Suriname",
+        "Chile",
+        "Peru",
+        "Ecuador"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Paraguay",
+      "continent": "SouthAmerica",
+      "options": [
+        "Bolivia",
+        "Peru",
+        "Ecuador",
+        "Guyana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Peru",
+      "continent": "SouthAmerica",
+      "options": [
+        "Colombia",
+        "Suriname",
+        "Guyana",
+        "Uruguay"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Suriname",
+      "continent": "SouthAmerica",
+      "options": [
+        "Guyana",
+        "Uruguay",
+        "Bolivia",
+        "Paraguay"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Uruguay",
+      "continent": "SouthAmerica",
+      "options": [
+        "Argentina",
+        "Guyana",
+        "Suriname",
+        "Peru"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Venezuela",
+      "continent": "SouthAmerica",
+      "options": [
+        "Guyana",
+        "Paraguay",
+        "Suriname",
+        "Ecuador"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "countryName": "Papua New Guinea",
+      "continent": "Oceania",
+      "options": [
+        "Indonesia",
+        "Fiji",
+        "Kiribati",
+        "Nauru"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}

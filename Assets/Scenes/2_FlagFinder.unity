@@ -993,10 +993,10 @@ MonoBehaviour:
   normalOptionColor: {r: 1, g: 1, b: 1, a: 1}
   selectedOptionColor: {r: 0.85, g: 0.9, b: 1, a: 1}
   playQuestionIntroAnimation: 1
-  questionAnimDuration: 0.2
-  questionStartScale: 0.96
+  questionAnimDuration: 1
+  questionStartScale: 0.5
   questionsPerRound: 10
-  panelFadeDuration: 0.25
+  panelFadeDuration: 0.5
 --- !u!4 &489954415
 Transform:
   m_ObjectHideFlags: 0

@@ -991,7 +991,7 @@ MonoBehaviour:
   questionAnimDuration: 1
   questionStartScale: 0.5
   questionsPerRound: 10
-  panelFadeDuration: 1
+  panelFadeDuration: 0.5
 --- !u!4 &489954415
 Transform:
   m_ObjectHideFlags: 0
