@@ -1,0 +1,1951 @@
+{
+  "questions": [
+    {
+      "question": "Which is the deepest lake in Africa?",
+      "continent": "Africa",
+      "options": [
+        "Lake Tanganyika",
+        "Lake Victoria",
+        "Lake Malawi",
+        "Lake Chad"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the largest land area in Africa?",
+      "continent": "Africa",
+      "options": [
+        "Algeria",
+        "Comoros",
+        "Guinea-Bissau",
+        "Lesotho"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the smallest land area in Africa?",
+      "continent": "Africa",
+      "options": [
+        "Seychelles",
+        "Equatorial Guinea",
+        "Chad",
+        "Angola"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the largest population in Africa?",
+      "continent": "Africa",
+      "options": [
+        "Nigeria",
+        "Niger",
+        "Cameroon",
+        "Sierra Leone"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the smallest population in Africa?",
+      "continent": "Africa",
+      "options": [
+        "Seychelles",
+        "Zambia",
+        "Libya",
+        "Burundi"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa is landlocked?",
+      "continent": "Africa",
+      "options": [
+        "Zambia",
+        "Equatorial Guinea",
+        "Togo",
+        "Morocco"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa uses the MUR currency?",
+      "continent": "Africa",
+      "options": [
+        "Mauritius",
+        "Algeria",
+        "Togo",
+        "Eritrea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa has English as an official language?",
+      "continent": "Africa",
+      "options": [
+        "Mauritius",
+        "Cote d'Ivoire",
+        "Djibouti",
+        "Niger"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa uses the XOF currency?",
+      "continent": "Africa",
+      "options": [
+        "Burkina Faso",
+        "Tanzania",
+        "Madagascar",
+        "South Africa"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa has French as an official language?",
+      "continent": "Africa",
+      "options": [
+        "Burkina Faso",
+        "Mauritania",
+        "Malawi",
+        "Ghana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa uses the XOF currency?",
+      "continent": "Africa",
+      "options": [
+        "Niger",
+        "Eswatini",
+        "Liberia",
+        "Sierra Leone"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa has French as an official language?",
+      "continent": "Africa",
+      "options": [
+        "Niger",
+        "Ethiopia",
+        "Malawi",
+        "Zimbabwe"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa uses the MZN currency?",
+      "continent": "Africa",
+      "options": [
+        "Mozambique",
+        "Angola",
+        "Lesotho",
+        "Togo"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa has Portuguese as an official language?",
+      "continent": "Africa",
+      "options": [
+        "Mozambique",
+        "Comoros",
+        "South Africa",
+        "South Sudan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa uses the MRU currency?",
+      "continent": "Africa",
+      "options": [
+        "Mauritania",
+        "Benin",
+        "Guinea",
+        "Zambia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa has Arabic as an official language?",
+      "continent": "Africa",
+      "options": [
+        "Mauritania",
+        "Madagascar",
+        "Guinea",
+        "Burundi"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa uses the XAF currency?",
+      "continent": "Africa",
+      "options": [
+        "Congo",
+        "Burkina Faso",
+        "Mauritius",
+        "Zimbabwe"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa has French as an official language?",
+      "continent": "Africa",
+      "options": [
+        "Congo",
+        "Sao Tome and Principe",
+        "South Africa",
+        "Kenya"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa uses the XAF currency?",
+      "continent": "Africa",
+      "options": [
+        "Chad",
+        "Nigeria",
+        "Uganda",
+        "Botswana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa has Arabic as an official language?",
+      "continent": "Africa",
+      "options": [
+        "Chad",
+        "South Africa",
+        "Nigeria",
+        "Mauritius"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa uses the KMF currency?",
+      "continent": "Africa",
+      "options": [
+        "Comoros",
+        "Eritrea",
+        "Uganda",
+        "Guinea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa has Arabic as an official language?",
+      "continent": "Africa",
+      "options": [
+        "Comoros",
+        "Cote d'Ivoire",
+        "Malawi",
+        "Ethiopia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa uses the ETB currency?",
+      "continent": "Africa",
+      "options": [
+        "Ethiopia",
+        "Kenya",
+        "Gabon",
+        "Rwanda"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa has Amharic as an official language?",
+      "continent": "Africa",
+      "options": [
+        "Ethiopia",
+        "Mauritius",
+        "Kenya",
+        "Zimbabwe"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa uses the SZL currency?",
+      "continent": "Africa",
+      "options": [
+        "Eswatini",
+        "Cabo Verde",
+        "Somalia",
+        "Equatorial Guinea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa has English as an official language?",
+      "continent": "Africa",
+      "options": [
+        "Eswatini",
+        "Morocco",
+        "Cabo Verde",
+        "Congo"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa uses the XOF currency?",
+      "continent": "Africa",
+      "options": [
+        "Guinea-Bissau",
+        "Egypt",
+        "Somalia",
+        "Mozambique"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa has Portuguese as an official language?",
+      "continent": "Africa",
+      "options": [
+        "Guinea-Bissau",
+        "Sierra Leone",
+        "Ethiopia",
+        "Mali"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa uses the SSP currency?",
+      "continent": "Africa",
+      "options": [
+        "South Sudan",
+        "Liberia",
+        "Niger",
+        "Nigeria"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Africa has English as an official language?",
+      "continent": "Africa",
+      "options": [
+        "South Sudan",
+        "Sao Tome and Principe",
+        "Morocco",
+        "Niger"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which of these is a city in Vietnam?",
+      "continent": "Asia",
+      "options": [
+        "Nam Dinh",
+        "Jakarta",
+        "Pyongyang",
+        "Salem"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the largest land area in Asia?",
+      "continent": "Asia",
+      "options": [
+        "China",
+        "Timor-Leste",
+        "Syria",
+        "Malaysia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the smallest land area in Asia?",
+      "continent": "Asia",
+      "options": [
+        "Maldives",
+        "Turkmenistan",
+        "Azerbaijan",
+        "Vietnam"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the largest population in Asia?",
+      "continent": "Asia",
+      "options": [
+        "India",
+        "Indonesia",
+        "Lebanon",
+        "Yemen"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the smallest population in Asia?",
+      "continent": "Asia",
+      "options": [
+        "Brunei",
+        "Syria",
+        "Maldives",
+        "Kuwait"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia is landlocked?",
+      "continent": "Asia",
+      "options": [
+        "Uzbekistan",
+        "Pakistan",
+        "Sri Lanka",
+        "Saudi Arabia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia uses the LKR currency?",
+      "continent": "Asia",
+      "options": [
+        "Sri Lanka",
+        "Brunei",
+        "China",
+        "Saudi Arabia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia has Sinhala as an official language?",
+      "continent": "Asia",
+      "options": [
+        "Sri Lanka",
+        "United Arab Emirates",
+        "Kuwait",
+        "South Korea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia uses the TMT currency?",
+      "continent": "Asia",
+      "options": [
+        "Turkmenistan",
+        "Kuwait",
+        "Yemen",
+        "Thailand"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia has Russian as an official language?",
+      "continent": "Asia",
+      "options": [
+        "Turkmenistan",
+        "Bahrain",
+        "Cambodia",
+        "Laos"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia uses the TRY currency?",
+      "continent": "Asia",
+      "options": [
+        "Turkey",
+        "Afghanistan",
+        "Nepal",
+        "Lebanon"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia has Turkish as an official language?",
+      "continent": "Asia",
+      "options": [
+        "Turkey",
+        "Malaysia",
+        "Lebanon",
+        "Vietnam"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia uses the TJS currency?",
+      "continent": "Asia",
+      "options": [
+        "Tajikistan",
+        "Iran",
+        "Bhutan",
+        "Philippines"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia has Russian as an official language?",
+      "continent": "Asia",
+      "options": [
+        "Tajikistan",
+        "Yemen",
+        "Brunei",
+        "Indonesia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia uses the SYP currency?",
+      "continent": "Asia",
+      "options": [
+        "Syria",
+        "Afghanistan",
+        "Maldives",
+        "Myanmar"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia has Arabic as an official language?",
+      "continent": "Asia",
+      "options": [
+        "Syria",
+        "Pakistan",
+        "Sri Lanka",
+        "Armenia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia uses the UZS currency?",
+      "continent": "Asia",
+      "options": [
+        "Uzbekistan",
+        "North Korea",
+        "Maldives",
+        "Bhutan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia has Russian as an official language?",
+      "continent": "Asia",
+      "options": [
+        "Uzbekistan",
+        "Japan",
+        "Turkey",
+        "Malaysia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia uses the IQD currency?",
+      "continent": "Asia",
+      "options": [
+        "Iraq",
+        "Qatar",
+        "Myanmar",
+        "Brunei"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia has Arabic as an official language?",
+      "continent": "Asia",
+      "options": [
+        "Iraq",
+        "China",
+        "Turkey",
+        "Vietnam"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia uses the AMD currency?",
+      "continent": "Asia",
+      "options": [
+        "Armenia",
+        "India",
+        "Cambodia",
+        "Malaysia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia has Armenian as an official language?",
+      "continent": "Asia",
+      "options": [
+        "Armenia",
+        "India",
+        "Japan",
+        "Kyrgyzstan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia uses the KZT currency?",
+      "continent": "Asia",
+      "options": [
+        "Kazakhstan",
+        "Afghanistan",
+        "Uzbekistan",
+        "Bahrain"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia has Kazakh as an official language?",
+      "continent": "Asia",
+      "options": [
+        "Kazakhstan",
+        "India",
+        "Nepal",
+        "Iran"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia uses the MYR currency?",
+      "continent": "Asia",
+      "options": [
+        "Malaysia",
+        "Bahrain",
+        "Bangladesh",
+        "Japan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia has English as an official language?",
+      "continent": "Asia",
+      "options": [
+        "Malaysia",
+        "Timor-Leste",
+        "Indonesia",
+        "Bangladesh"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia uses the KWD currency?",
+      "continent": "Asia",
+      "options": [
+        "Kuwait",
+        "Brunei",
+        "Nepal",
+        "Maldives"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia has Arabic as an official language?",
+      "continent": "Asia",
+      "options": [
+        "Kuwait",
+        "Japan",
+        "Turkey",
+        "Singapore"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia uses the LBP currency?",
+      "continent": "Asia",
+      "options": [
+        "Lebanon",
+        "Saudi Arabia",
+        "Kuwait",
+        "Azerbaijan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Asia has Arabic as an official language?",
+      "continent": "Asia",
+      "options": [
+        "Lebanon",
+        "Mongolia",
+        "Japan",
+        "Kyrgyzstan"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "In which country are the 'Keukenhof gardens' located?",
+      "continent": "Europe",
+      "options": [
+        "Netherlands",
+        "Belgium",
+        "Germany",
+        "France"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the largest land area in Europe?",
+      "continent": "Europe",
+      "options": [
+        "Russia",
+        "England",
+        "Luxembourg",
+        "Ukraine"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the smallest land area in Europe?",
+      "continent": "Europe",
+      "options": [
+        "Monaco",
+        "Italy",
+        "Romania",
+        "Slovakia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the largest population in Europe?",
+      "continent": "Europe",
+      "options": [
+        "Russia",
+        "Spain",
+        "Andorra",
+        "Bosnia and Herzegovina"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the smallest population in Europe?",
+      "continent": "Europe",
+      "options": [
+        "San Marino",
+        "Greece",
+        "Albania",
+        "Poland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe is landlocked?",
+      "continent": "Europe",
+      "options": [
+        "Liechtenstein",
+        "Ukraine",
+        "Bosnia and Herzegovina",
+        "Netherlands"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe uses the EUR currency?",
+      "continent": "Europe",
+      "options": [
+        "Belgium",
+        "Switzerland",
+        "Russia",
+        "England"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe has German as an official language?",
+      "continent": "Europe",
+      "options": [
+        "Belgium",
+        "Hungary",
+        "Ireland",
+        "Northern Ireland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe uses the EUR currency?",
+      "continent": "Europe",
+      "options": [
+        "Spain",
+        "Scotland",
+        "Iceland",
+        "Romania"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe has Spanish as an official language?",
+      "continent": "Europe",
+      "options": [
+        "Spain",
+        "Ireland",
+        "Greece",
+        "Wales"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe uses the CHF currency?",
+      "continent": "Europe",
+      "options": [
+        "Switzerland",
+        "Italy",
+        "Wales",
+        "Estonia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe has French as an official language?",
+      "continent": "Europe",
+      "options": [
+        "Switzerland",
+        "San Marino",
+        "Malta",
+        "Czechia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe uses the CZK currency?",
+      "continent": "Europe",
+      "options": [
+        "Czechia",
+        "Romania",
+        "Spain",
+        "Belarus"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe has Czech as an official language?",
+      "continent": "Europe",
+      "options": [
+        "Czechia",
+        "San Marino",
+        "Latvia",
+        "Belarus"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe uses the GBP currency?",
+      "continent": "Europe",
+      "options": [
+        "Scotland",
+        "Lithuania",
+        "Liechtenstein",
+        "Ukraine"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe has English as an official language?",
+      "continent": "Europe",
+      "options": [
+        "Scotland",
+        "Andorra",
+        "Monaco",
+        "Finland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe uses the NOK currency?",
+      "continent": "Europe",
+      "options": [
+        "Norway",
+        "Switzerland",
+        "Germany",
+        "Georgia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe has Norwegian Nynorsk as an official language?",
+      "continent": "Europe",
+      "options": [
+        "Norway",
+        "San Marino",
+        "Georgia",
+        "Cyprus"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe uses the BGN currency?",
+      "continent": "Europe",
+      "options": [
+        "Bulgaria",
+        "Estonia",
+        "Luxembourg",
+        "Finland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe has Bulgarian as an official language?",
+      "continent": "Europe",
+      "options": [
+        "Bulgaria",
+        "Poland",
+        "Iceland",
+        "Malta"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe uses the BAM currency?",
+      "continent": "Europe",
+      "options": [
+        "Bosnia and Herzegovina",
+        "Ukraine",
+        "North Macedonia",
+        "San Marino"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe has Bosnian as an official language?",
+      "continent": "Europe",
+      "options": [
+        "Bosnia and Herzegovina",
+        "Croatia",
+        "Ireland",
+        "North Macedonia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe uses the ISK currency?",
+      "continent": "Europe",
+      "options": [
+        "Iceland",
+        "Monaco",
+        "Bosnia and Herzegovina",
+        "Lithuania"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe has Icelandic as an official language?",
+      "continent": "Europe",
+      "options": [
+        "Iceland",
+        "Ireland",
+        "England",
+        "Denmark"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe uses the CHF currency?",
+      "continent": "Europe",
+      "options": [
+        "Liechtenstein",
+        "Latvia",
+        "England",
+        "Andorra"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe has German as an official language?",
+      "continent": "Europe",
+      "options": [
+        "Liechtenstein",
+        "Netherlands",
+        "Georgia",
+        "Slovenia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe uses the EUR currency?",
+      "continent": "Europe",
+      "options": [
+        "Estonia",
+        "Wales",
+        "Hungary",
+        "Scotland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe has Estonian as an official language?",
+      "continent": "Europe",
+      "options": [
+        "Estonia",
+        "Slovenia",
+        "Iceland",
+        "Sweden"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe uses the EUR currency?",
+      "continent": "Europe",
+      "options": [
+        "San Marino",
+        "Iceland",
+        "Albania",
+        "Northern Ireland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Europe has Italian as an official language?",
+      "continent": "Europe",
+      "options": [
+        "San Marino",
+        "Belarus",
+        "Poland",
+        "Ireland"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "In which american city would you find 'The Rockefeller Center'?",
+      "continent": "NorthAmerica",
+      "options": [
+        "New York City",
+        "Los Angeles",
+        "Chicago",
+        "Houston"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the largest land area in NorthAmerica?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Canada",
+        "El Salvador",
+        "Barbados",
+        "Belize"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the smallest land area in NorthAmerica?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Saint Kitts and Nevis",
+        "Canada",
+        "Honduras",
+        "Guatemala"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the largest population in NorthAmerica?",
+      "continent": "NorthAmerica",
+      "options": [
+        "United States",
+        "Antigua and Barbuda",
+        "Dominica",
+        "Honduras"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the smallest population in NorthAmerica?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Saint Kitts and Nevis",
+        "Dominican Republic",
+        "Bahamas",
+        "Jamaica"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica uses the CUC currency?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Cuba",
+        "Panama",
+        "Trinidad and Tobago",
+        "Guatemala"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica has Spanish as an official language?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Cuba",
+        "Jamaica",
+        "Saint Kitts and Nevis",
+        "Canada"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica uses the NIO currency?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Nicaragua",
+        "Haiti",
+        "Dominica",
+        "Canada"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica has Spanish as an official language?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Nicaragua",
+        "United States",
+        "Trinidad and Tobago",
+        "Saint Kitts and Nevis"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica uses the TTD currency?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Trinidad and Tobago",
+        "Saint Kitts and Nevis",
+        "Dominican Republic",
+        "Honduras"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica has English as an official language?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Trinidad and Tobago",
+        "Guatemala",
+        "Mexico",
+        "Costa Rica"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica uses the DOP currency?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Dominican Republic",
+        "Panama",
+        "Jamaica",
+        "Honduras"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica has Spanish as an official language?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Dominican Republic",
+        "Bahamas",
+        "Dominica",
+        "Grenada"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica uses the USD currency?",
+      "continent": "NorthAmerica",
+      "options": [
+        "El Salvador",
+        "Grenada",
+        "Dominican Republic",
+        "Guatemala"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica has Spanish as an official language?",
+      "continent": "NorthAmerica",
+      "options": [
+        "El Salvador",
+        "Jamaica",
+        "Saint Lucia",
+        "Antigua and Barbuda"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica uses the XCD currency?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Antigua and Barbuda",
+        "Bahamas",
+        "United States",
+        "El Salvador"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica has English as an official language?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Antigua and Barbuda",
+        "Guatemala",
+        "Haiti",
+        "Panama"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica uses the HTG currency?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Haiti",
+        "Barbados",
+        "Belize",
+        "Panama"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica has French as an official language?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Haiti",
+        "Jamaica",
+        "Grenada",
+        "Saint Lucia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica uses the PAB currency?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Panama",
+        "Bahamas",
+        "El Salvador",
+        "Dominican Republic"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica has Spanish as an official language?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Panama",
+        "Saint Lucia",
+        "Trinidad and Tobago",
+        "Haiti"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica uses the HNL currency?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Honduras",
+        "Panama",
+        "Cuba",
+        "Trinidad and Tobago"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica has Spanish as an official language?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Honduras",
+        "Saint Kitts and Nevis",
+        "United States",
+        "Bahamas"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica uses the BBD currency?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Barbados",
+        "Saint Lucia",
+        "Jamaica",
+        "Dominican Republic"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica has English as an official language?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Barbados",
+        "El Salvador",
+        "Mexico",
+        "Costa Rica"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica uses the JMD currency?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Jamaica",
+        "El Salvador",
+        "Honduras",
+        "Barbados"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica has English as an official language?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Jamaica",
+        "Mexico",
+        "Costa Rica",
+        "El Salvador"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica uses the CRC currency?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Costa Rica",
+        "Dominican Republic",
+        "Bahamas",
+        "Antigua and Barbuda"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica has Spanish as an official language?",
+      "continent": "NorthAmerica",
+      "options": [
+        "Costa Rica",
+        "Grenada",
+        "Haiti",
+        "Barbados"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in NorthAmerica uses the USD currency?",
+      "continent": "NorthAmerica",
+      "options": [
+        "United States",
+        "Saint Kitts and Nevis",
+        "Antigua and Barbuda",
+        "Belize"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "The highest peak of south america 'Mount Aconcagua' is in ...?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Argentina",
+        "Brazil",
+        "Chile",
+        "Peru"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the largest land area in SouthAmerica?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Brazil",
+        "Bolivia",
+        "Venezuela",
+        "Argentina"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the smallest land area in SouthAmerica?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Suriname",
+        "Venezuela",
+        "Uruguay",
+        "Guyana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the largest population in SouthAmerica?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Brazil",
+        "Ecuador",
+        "Peru",
+        "Paraguay"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the smallest population in SouthAmerica?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Suriname",
+        "Ecuador",
+        "Peru",
+        "Uruguay"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica is landlocked?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Paraguay",
+        "Uruguay",
+        "Chile",
+        "Ecuador"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica uses the COP currency?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Colombia",
+        "Bolivia",
+        "Chile",
+        "Brazil"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica has Spanish as an official language?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Colombia",
+        "Brazil",
+        "Suriname",
+        "Guyana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica uses the BOB currency?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Bolivia",
+        "Venezuela",
+        "Argentina",
+        "Chile"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica has Aymara as an official language?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Bolivia",
+        "Uruguay",
+        "Argentina",
+        "Colombia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica uses the USD currency?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Ecuador",
+        "Peru",
+        "Guyana",
+        "Brazil"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica has Spanish as an official language?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Ecuador",
+        "Suriname",
+        "Brazil",
+        "Guyana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica uses the VES currency?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Venezuela",
+        "Suriname",
+        "Uruguay",
+        "Paraguay"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica has Spanish as an official language?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Venezuela",
+        "Suriname",
+        "Brazil",
+        "Guyana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica uses the GYD currency?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Guyana",
+        "Ecuador",
+        "Brazil",
+        "Uruguay"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica has English as an official language?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Guyana",
+        "Venezuela",
+        "Ecuador",
+        "Uruguay"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica uses the PYG currency?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Paraguay",
+        "Bolivia",
+        "Brazil",
+        "Guyana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica has Guaraní as an official language?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Paraguay",
+        "Chile",
+        "Brazil",
+        "Guyana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica uses the UYU currency?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Uruguay",
+        "Argentina",
+        "Colombia",
+        "Paraguay"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica has Spanish as an official language?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Uruguay",
+        "Suriname",
+        "Brazil",
+        "Guyana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica uses the BRL currency?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Brazil",
+        "Paraguay",
+        "Venezuela",
+        "Peru"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica has Portuguese as an official language?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Brazil",
+        "Venezuela",
+        "Peru",
+        "Suriname"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica uses the PEN currency?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Peru",
+        "Uruguay",
+        "Chile",
+        "Colombia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica has Aymara as an official language?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Peru",
+        "Argentina",
+        "Chile",
+        "Ecuador"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica uses the SRD currency?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Suriname",
+        "Venezuela",
+        "Paraguay",
+        "Guyana"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica has Dutch as an official language?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Suriname",
+        "Colombia",
+        "Uruguay",
+        "Peru"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica uses the ARS currency?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Argentina",
+        "Guyana",
+        "Chile",
+        "Suriname"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica has Guaraní as an official language?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Argentina",
+        "Suriname",
+        "Colombia",
+        "Uruguay"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica uses the CLP currency?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Chile",
+        "Bolivia",
+        "Guyana",
+        "Colombia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in SouthAmerica has Spanish as an official language?",
+      "continent": "SouthAmerica",
+      "options": [
+        "Chile",
+        "Brazil",
+        "Guyana",
+        "Suriname"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which pacific republic includes the Gilbert islands, Lime islands and the volcanic island of Banaba?",
+      "continent": "Oceania",
+      "options": [
+        "Kiribati",
+        "Marshall Islands",
+        "Micronesia",
+        "Nauru"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the largest land area in Oceania?",
+      "continent": "Oceania",
+      "options": [
+        "Australia",
+        "Tonga",
+        "Kiribati",
+        "Marshall Islands"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the smallest land area in Oceania?",
+      "continent": "Oceania",
+      "options": [
+        "Nauru",
+        "Solomon Islands",
+        "Vanuatu",
+        "Samoa"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the largest population in Oceania?",
+      "continent": "Oceania",
+      "options": [
+        "Australia",
+        "Samoa",
+        "Micronesia",
+        "Vanuatu"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country has the smallest population in Oceania?",
+      "continent": "Oceania",
+      "options": [
+        "Tuvalu",
+        "Solomon Islands",
+        "Kiribati",
+        "Papua New Guinea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania uses the FJD currency?",
+      "continent": "Oceania",
+      "options": [
+        "Fiji",
+        "Australia",
+        "Samoa",
+        "Micronesia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania has English as an official language?",
+      "continent": "Oceania",
+      "options": [
+        "Fiji"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania uses the AUD currency?",
+      "continent": "Oceania",
+      "options": [
+        "Tuvalu",
+        "Marshall Islands",
+        "Solomon Islands",
+        "Fiji"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania has English as an official language?",
+      "continent": "Oceania",
+      "options": [
+        "Tuvalu"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania uses the VUV currency?",
+      "continent": "Oceania",
+      "options": [
+        "Vanuatu",
+        "Marshall Islands",
+        "Kiribati",
+        "Australia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania has Bislama as an official language?",
+      "continent": "Oceania",
+      "options": [
+        "Vanuatu",
+        "Marshall Islands",
+        "Tuvalu",
+        "Fiji"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania uses the AUD currency?",
+      "continent": "Oceania",
+      "options": [
+        "Nauru",
+        "Micronesia",
+        "Marshall Islands",
+        "Papua New Guinea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania has English as an official language?",
+      "continent": "Oceania",
+      "options": [
+        "Nauru"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania uses the NZD currency?",
+      "continent": "Oceania",
+      "options": [
+        "New Zealand",
+        "Nauru",
+        "Samoa",
+        "Solomon Islands"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania has English as an official language?",
+      "continent": "Oceania",
+      "options": [
+        "New Zealand"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania uses the USD currency?",
+      "continent": "Oceania",
+      "options": [
+        "Marshall Islands",
+        "Vanuatu",
+        "Papua New Guinea",
+        "Samoa"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania has English as an official language?",
+      "continent": "Oceania",
+      "options": [
+        "Marshall Islands"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania uses the USD currency?",
+      "continent": "Oceania",
+      "options": [
+        "Micronesia",
+        "Fiji",
+        "Solomon Islands",
+        "Tuvalu"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania has English as an official language?",
+      "continent": "Oceania",
+      "options": [
+        "Micronesia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania uses the TOP currency?",
+      "continent": "Oceania",
+      "options": [
+        "Tonga",
+        "Papua New Guinea",
+        "Vanuatu",
+        "Solomon Islands"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania has English as an official language?",
+      "continent": "Oceania",
+      "options": [
+        "Tonga"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania uses the AUD currency?",
+      "continent": "Oceania",
+      "options": [
+        "Australia",
+        "New Zealand",
+        "Samoa",
+        "Tonga"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania has English as an official language?",
+      "continent": "Oceania",
+      "options": [
+        "Australia"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania uses the USD currency?",
+      "continent": "Oceania",
+      "options": [
+        "Palau",
+        "Tuvalu",
+        "Nauru",
+        "Papua New Guinea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania has English as an official language?",
+      "continent": "Oceania",
+      "options": [
+        "Palau"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania uses the AUD currency?",
+      "continent": "Oceania",
+      "options": [
+        "Kiribati",
+        "Micronesia",
+        "Palau",
+        "New Zealand"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania has English as an official language?",
+      "continent": "Oceania",
+      "options": [
+        "Kiribati"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania uses the PGK currency?",
+      "continent": "Oceania",
+      "options": [
+        "Papua New Guinea",
+        "Marshall Islands",
+        "Tuvalu",
+        "New Zealand"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania has English as an official language?",
+      "continent": "Oceania",
+      "options": [
+        "Papua New Guinea"
+      ],
+      "correctOptionIndex": 0
+    },
+    {
+      "question": "Which country in Oceania uses the WST currency?",
+      "continent": "Oceania",
+      "options": [
+        "Samoa",
+        "Palau",
+        "Marshall Islands",
+        "Nauru"
+      ],
+      "correctOptionIndex": 0
+    }
+  ]
+}
