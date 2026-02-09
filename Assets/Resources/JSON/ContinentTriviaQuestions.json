@@ -1,1950 +1,1083 @@
 {
   "questions": [
     {
-      "question": "Which is the deepest lake in Africa?",
+      "question": "Which country is home to the ancient pyramids of Giza?",
       "continent": "Africa",
-      "options": [
-        "Lake Tanganyika",
-        "Lake Victoria",
-        "Lake Malawi",
-        "Lake Chad"
-      ],
+      "options": ["Egypt", "Sudan", "Ethiopia", "Morocco"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the largest land area in Africa?",
+      "question": "Which African country is known as the 'Rainbow Nation'?",
       "continent": "Africa",
-      "options": [
-        "Algeria",
-        "Comoros",
-        "Guinea-Bissau",
-        "Lesotho"
-      ],
+      "options": ["South Africa", "Nigeria", "Kenya", "Ghana"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the smallest land area in Africa?",
+      "question": "In which country would you find Mount Kilimanjaro?",
       "continent": "Africa",
-      "options": [
-        "Seychelles",
-        "Equatorial Guinea",
-        "Chad",
-        "Angola"
-      ],
+      "options": ["Tanzania", "Kenya", "Uganda", "Ethiopia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the largest population in Africa?",
+      "question": "Which country is the largest producer of cocoa in the world?",
       "continent": "Africa",
-      "options": [
-        "Nigeria",
-        "Niger",
-        "Cameroon",
-        "Sierra Leone"
-      ],
+      "options": ["Ivory Coast", "Ghana", "Nigeria", "Cameroon"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the smallest population in Africa?",
+      "question": "Which African country was formerly known as Abyssinia?",
       "continent": "Africa",
-      "options": [
-        "Seychelles",
-        "Zambia",
-        "Libya",
-        "Burundi"
-      ],
+      "options": ["Ethiopia", "Eritrea", "Somalia", "Sudan"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa is landlocked?",
+      "question": "In which country would you find the ancient city of Timbuktu?",
       "continent": "Africa",
-      "options": [
-        "Zambia",
-        "Equatorial Guinea",
-        "Togo",
-        "Morocco"
-      ],
+      "options": ["Mali", "Niger", "Chad", "Mauritania"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa uses the MUR currency?",
+      "question": "Which country is home to the Serengeti National Park?",
       "continent": "Africa",
-      "options": [
-        "Mauritius",
-        "Algeria",
-        "Togo",
-        "Eritrea"
-      ],
+      "options": ["Tanzania", "Kenya", "Botswana", "Zambia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa has English as an official language?",
+      "question": "Which island nation off Africa's east coast is known for its unique wildlife including lemurs?",
       "continent": "Africa",
-      "options": [
-        "Mauritius",
-        "Cote d'Ivoire",
-        "Djibouti",
-        "Niger"
-      ],
+      "options": ["Madagascar", "Seychelles", "Mauritius", "Comoros"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa uses the XOF currency?",
+      "question": "Which African country has the most pyramids?",
       "continent": "Africa",
-      "options": [
-        "Burkina Faso",
-        "Tanzania",
-        "Madagascar",
-        "South Africa"
-      ],
+      "options": ["Sudan", "Egypt", "Libya", "Algeria"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa has French as an official language?",
+      "question": "In which country would you find Victoria Falls?",
       "continent": "Africa",
-      "options": [
-        "Burkina Faso",
-        "Mauritania",
-        "Malawi",
-        "Ghana"
-      ],
+      "options": ["Zambia and Zimbabwe", "Tanzania", "Botswana", "South Africa"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa uses the XOF currency?",
+      "question": "Which country is home to the Sahara Desert's largest portion?",
       "continent": "Africa",
-      "options": [
-        "Niger",
-        "Eswatini",
-        "Liberia",
-        "Sierra Leone"
-      ],
+      "options": ["Algeria", "Libya", "Egypt", "Mali"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa has French as an official language?",
+      "question": "Which African country is known as the 'Land of a Thousand Hills'?",
       "continent": "Africa",
-      "options": [
-        "Niger",
-        "Ethiopia",
-        "Malawi",
-        "Zimbabwe"
-      ],
+      "options": ["Rwanda", "Burundi", "Uganda", "Ethiopia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa uses the MZN currency?",
+      "question": "Which country is home to the ancient city of Carthage?",
       "continent": "Africa",
-      "options": [
-        "Mozambique",
-        "Angola",
-        "Lesotho",
-        "Togo"
-      ],
+      "options": ["Tunisia", "Libya", "Algeria", "Morocco"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa has Portuguese as an official language?",
+      "question": "In which country is the Okavango Delta located?",
       "continent": "Africa",
-      "options": [
-        "Mozambique",
-        "Comoros",
-        "South Africa",
-        "South Sudan"
-      ],
+      "options": ["Botswana", "Namibia", "Angola", "Zimbabwe"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa uses the MRU currency?",
+      "question": "Which African country has never been colonized by a European power?",
       "continent": "Africa",
-      "options": [
-        "Mauritania",
-        "Benin",
-        "Guinea",
-        "Zambia"
-      ],
+      "options": ["Ethiopia", "Liberia", "Egypt", "Morocco"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa has Arabic as an official language?",
+      "question": "Which country is famous for its mountain gorillas in Volcanoes National Park?",
       "continent": "Africa",
-      "options": [
-        "Mauritania",
-        "Madagascar",
-        "Guinea",
-        "Burundi"
-      ],
+      "options": ["Rwanda", "Uganda", "Democratic Republic of Congo", "Tanzania"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa uses the XAF currency?",
+      "question": "In which country would you find the ancient rock-hewn churches of Lalibela?",
       "continent": "Africa",
-      "options": [
-        "Congo",
-        "Burkina Faso",
-        "Mauritius",
-        "Zimbabwe"
-      ],
+      "options": ["Ethiopia", "Egypt", "Sudan", "Eritrea"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa has French as an official language?",
+      "question": "Which country is home to the Ngorongoro Crater?",
       "continent": "Africa",
-      "options": [
-        "Congo",
-        "Sao Tome and Principe",
-        "South Africa",
-        "Kenya"
-      ],
+      "options": ["Tanzania", "Kenya", "Ethiopia", "Uganda"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa uses the XAF currency?",
+      "question": "Which African country is the world's largest producer of diamonds by value?",
       "continent": "Africa",
-      "options": [
-        "Chad",
-        "Nigeria",
-        "Uganda",
-        "Botswana"
-      ],
+      "options": ["Botswana", "South Africa", "Angola", "Democratic Republic of Congo"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa has Arabic as an official language?",
+      "question": "In which country would you find the ancient ruins of Great Zimbabwe?",
       "continent": "Africa",
-      "options": [
-        "Chad",
-        "South Africa",
-        "Nigeria",
-        "Mauritius"
-      ],
+      "options": ["Zimbabwe", "Mozambique", "Zambia", "Botswana"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa uses the KMF currency?",
+      "question": "Which country is home to the endangered mountain gorillas in Bwindi Impenetrable Forest?",
       "continent": "Africa",
-      "options": [
-        "Comoros",
-        "Eritrea",
-        "Uganda",
-        "Guinea"
-      ],
+      "options": ["Uganda", "Rwanda", "Democratic Republic of Congo", "Kenya"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa has Arabic as an official language?",
+      "question": "Which North African country is famous for its blue city of Chefchaouen?",
       "continent": "Africa",
-      "options": [
-        "Comoros",
-        "Cote d'Ivoire",
-        "Malawi",
-        "Ethiopia"
-      ],
+      "options": ["Morocco", "Tunisia", "Algeria", "Libya"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa uses the ETB currency?",
+      "question": "In which country is the source of the White Nile located?",
       "continent": "Africa",
-      "options": [
-        "Ethiopia",
-        "Kenya",
-        "Gabon",
-        "Rwanda"
-      ],
+      "options": ["Uganda", "Tanzania", "Rwanda", "Ethiopia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa has Amharic as an official language?",
+      "question": "Which country is home to the Namib Desert, one of the world's oldest deserts?",
       "continent": "Africa",
-      "options": [
-        "Ethiopia",
-        "Mauritius",
-        "Kenya",
-        "Zimbabwe"
-      ],
+      "options": ["Namibia", "Botswana", "Angola", "South Africa"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa uses the SZL currency?",
+      "question": "Which African country was founded by freed American slaves?",
       "continent": "Africa",
-      "options": [
-        "Eswatini",
-        "Cabo Verde",
-        "Somalia",
-        "Equatorial Guinea"
-      ],
+      "options": ["Liberia", "Sierra Leone", "Ghana", "Nigeria"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa has English as an official language?",
+      "question": "In which country would you find the Djenne Mosque, the largest mud-brick building in the world?",
       "continent": "Africa",
-      "options": [
-        "Eswatini",
-        "Morocco",
-        "Cabo Verde",
-        "Congo"
-      ],
+      "options": ["Mali", "Niger", "Burkina Faso", "Senegal"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa uses the XOF currency?",
+      "question": "Which island nation is known for its vanilla production?",
       "continent": "Africa",
-      "options": [
-        "Guinea-Bissau",
-        "Egypt",
-        "Somalia",
-        "Mozambique"
-      ],
+      "options": ["Madagascar", "Mauritius", "Seychelles", "Comoros"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa has Portuguese as an official language?",
+      "question": "Which country is home to Lake Malawi, known for its diverse fish species?",
       "continent": "Africa",
-      "options": [
-        "Guinea-Bissau",
-        "Sierra Leone",
-        "Ethiopia",
-        "Mali"
-      ],
+      "options": ["Malawi", "Tanzania", "Mozambique", "Zambia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa uses the SSP currency?",
+      "question": "In which country is the historic city of Zanzibar located?",
       "continent": "Africa",
-      "options": [
-        "South Sudan",
-        "Liberia",
-        "Niger",
-        "Nigeria"
-      ],
+      "options": ["Tanzania", "Kenya", "Mozambique", "Madagascar"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Africa has English as an official language?",
+      "question": "Which country is famous for its unique Sossusvlei sand dunes?",
       "continent": "Africa",
-      "options": [
-        "South Sudan",
-        "Sao Tome and Principe",
-        "Morocco",
-        "Niger"
-      ],
+      "options": ["Namibia", "Botswana", "South Africa", "Angola"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which of these is a city in Vietnam?",
+      "question": "Which country is known as the 'Land of the Rising Sun'?",
       "continent": "Asia",
-      "options": [
-        "Nam Dinh",
-        "Jakarta",
-        "Pyongyang",
-        "Salem"
-      ],
+      "options": ["Japan", "South Korea", "China", "Thailand"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the largest land area in Asia?",
+      "question": "In which country would you find the ancient city of Petra?",
       "continent": "Asia",
-      "options": [
-        "China",
-        "Timor-Leste",
-        "Syria",
-        "Malaysia"
-      ],
+      "options": ["Jordan", "Syria", "Lebanon", "Iraq"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the smallest land area in Asia?",
+      "question": "Which country is home to the Taj Mahal?",
       "continent": "Asia",
-      "options": [
-        "Maldives",
-        "Turkmenistan",
-        "Azerbaijan",
-        "Vietnam"
-      ],
+      "options": ["India", "Pakistan", "Bangladesh", "Nepal"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the largest population in Asia?",
+      "question": "Which Asian country is made up of over 7,000 islands?",
       "continent": "Asia",
-      "options": [
-        "India",
-        "Indonesia",
-        "Lebanon",
-        "Yemen"
-      ],
+      "options": ["Philippines", "Indonesia", "Japan", "Malaysia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the smallest population in Asia?",
+      "question": "In which country would you find the ancient ruins of Angkor Wat?",
       "continent": "Asia",
-      "options": [
-        "Brunei",
-        "Syria",
-        "Maldives",
-        "Kuwait"
-      ],
+      "options": ["Cambodia", "Thailand", "Vietnam", "Laos"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia is landlocked?",
+      "question": "Which country is home to Mount Everest's summit?",
       "continent": "Asia",
-      "options": [
-        "Uzbekistan",
-        "Pakistan",
-        "Sri Lanka",
-        "Saudi Arabia"
-      ],
+      "options": ["Nepal", "India", "Bhutan", "Pakistan"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia uses the LKR currency?",
+      "question": "Which country is known as the 'Hermit Kingdom'?",
       "continent": "Asia",
-      "options": [
-        "Sri Lanka",
-        "Brunei",
-        "China",
-        "Saudi Arabia"
-      ],
+      "options": ["North Korea", "Bhutan", "Myanmar", "Laos"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia has Sinhala as an official language?",
+      "question": "In which country would you find the Dead Sea, the lowest point on Earth's surface?",
       "continent": "Asia",
-      "options": [
-        "Sri Lanka",
-        "United Arab Emirates",
-        "Kuwait",
-        "South Korea"
-      ],
+      "options": ["Jordan and Israel", "Syria", "Lebanon", "Iraq"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia uses the TMT currency?",
+      "question": "Which country is the world's largest archipelago with over 17,000 islands?",
       "continent": "Asia",
-      "options": [
-        "Turkmenistan",
-        "Kuwait",
-        "Yemen",
-        "Thailand"
-      ],
+      "options": ["Indonesia", "Philippines", "Japan", "Malaysia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia has Russian as an official language?",
+      "question": "Which country is home to the ancient Silk Road city of Samarkand?",
       "continent": "Asia",
-      "options": [
-        "Turkmenistan",
-        "Bahrain",
-        "Cambodia",
-        "Laos"
-      ],
+      "options": ["Uzbekistan", "Kazakhstan", "Turkmenistan", "Tajikistan"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia uses the TRY currency?",
+      "question": "In which country would you find the Forbidden City?",
       "continent": "Asia",
-      "options": [
-        "Turkey",
-        "Afghanistan",
-        "Nepal",
-        "Lebanon"
-      ],
+      "options": ["China", "Japan", "South Korea", "Vietnam"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia has Turkish as an official language?",
+      "question": "Which country is home to the ancient city of Bagan with thousands of temples?",
       "continent": "Asia",
-      "options": [
-        "Turkey",
-        "Malaysia",
-        "Lebanon",
-        "Vietnam"
-      ],
+      "options": ["Myanmar", "Thailand", "Cambodia", "Laos"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia uses the TJS currency?",
+      "question": "Which Asian country is the world's largest producer of tea?",
       "continent": "Asia",
-      "options": [
-        "Tajikistan",
-        "Iran",
-        "Bhutan",
-        "Philippines"
-      ],
+      "options": ["China", "India", "Sri Lanka", "Vietnam"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia has Russian as an official language?",
+      "question": "In which country is the ancient city of Petra located?",
       "continent": "Asia",
-      "options": [
-        "Tajikistan",
-        "Yemen",
-        "Brunei",
-        "Indonesia"
-      ],
+      "options": ["Jordan", "Syria", "Lebanon", "Iraq"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia uses the SYP currency?",
+      "question": "Which country is home to the Petronas Twin Towers?",
       "continent": "Asia",
-      "options": [
-        "Syria",
-        "Afghanistan",
-        "Maldives",
-        "Myanmar"
-      ],
+      "options": ["Malaysia", "Singapore", "Indonesia", "Thailand"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia has Arabic as an official language?",
+      "question": "Which country is known as the 'Land of the Thunder Dragon'?",
       "continent": "Asia",
-      "options": [
-        "Syria",
-        "Pakistan",
-        "Sri Lanka",
-        "Armenia"
-      ],
+      "options": ["Bhutan", "Nepal", "Tibet", "Mongolia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia uses the UZS currency?",
+      "question": "In which country would you find the ancient city of Persepolis?",
       "continent": "Asia",
-      "options": [
-        "Uzbekistan",
-        "North Korea",
-        "Maldives",
-        "Bhutan"
-      ],
+      "options": ["Iran", "Iraq", "Turkey", "Syria"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia has Russian as an official language?",
+      "question": "Which country is home to Jeju Island, a volcanic island and popular tourist destination?",
       "continent": "Asia",
-      "options": [
-        "Uzbekistan",
-        "Japan",
-        "Turkey",
-        "Malaysia"
-      ],
+      "options": ["South Korea", "Japan", "China", "Taiwan"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia uses the IQD currency?",
+      "question": "Which country is famous for its floating markets?",
       "continent": "Asia",
-      "options": [
-        "Iraq",
-        "Qatar",
-        "Myanmar",
-        "Brunei"
-      ],
+      "options": ["Thailand", "Vietnam", "Cambodia", "Indonesia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia has Arabic as an official language?",
+      "question": "In which country would you find the ancient city of Ayutthaya?",
       "continent": "Asia",
-      "options": [
-        "Iraq",
-        "China",
-        "Turkey",
-        "Vietnam"
-      ],
+      "options": ["Thailand", "Cambodia", "Myanmar", "Laos"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia uses the AMD currency?",
+      "question": "Which country is home to the Gobi Desert?",
       "continent": "Asia",
-      "options": [
-        "Armenia",
-        "India",
-        "Cambodia",
-        "Malaysia"
-      ],
+      "options": ["Mongolia and China", "Kazakhstan", "Uzbekistan", "Afghanistan"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia has Armenian as an official language?",
+      "question": "Which country is known for its cedar trees and ancient Phoenician history?",
       "continent": "Asia",
-      "options": [
-        "Armenia",
-        "India",
-        "Japan",
-        "Kyrgyzstan"
-      ],
+      "options": ["Lebanon", "Syria", "Jordan", "Israel"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia uses the KZT currency?",
+      "question": "In which country is the ancient city of Palmyra located?",
       "continent": "Asia",
-      "options": [
-        "Kazakhstan",
-        "Afghanistan",
-        "Uzbekistan",
-        "Bahrain"
-      ],
+      "options": ["Syria", "Jordan", "Iraq", "Lebanon"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia has Kazakh as an official language?",
+      "question": "Which country is home to the Chocolate Hills?",
       "continent": "Asia",
-      "options": [
-        "Kazakhstan",
-        "India",
-        "Nepal",
-        "Iran"
-      ],
+      "options": ["Philippines", "Indonesia", "Malaysia", "Thailand"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia uses the MYR currency?",
+      "question": "Which country is famous for its terraced rice fields in Banaue?",
       "continent": "Asia",
-      "options": [
-        "Malaysia",
-        "Bahrain",
-        "Bangladesh",
-        "Japan"
-      ],
+      "options": ["Philippines", "Vietnam", "Indonesia", "Thailand"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia has English as an official language?",
+      "question": "In which country would you find the ruins of the ancient city of Babylon?",
       "continent": "Asia",
-      "options": [
-        "Malaysia",
-        "Timor-Leste",
-        "Indonesia",
-        "Bangladesh"
-      ],
+      "options": ["Iraq", "Syria", "Iran", "Turkey"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia uses the KWD currency?",
+      "question": "Which country is home to the Karakoram mountain range?",
       "continent": "Asia",
-      "options": [
-        "Kuwait",
-        "Brunei",
-        "Nepal",
-        "Maldives"
-      ],
+      "options": ["Pakistan", "India", "Afghanistan", "China"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia has Arabic as an official language?",
+      "question": "Which country is known for its K-pop music and Korean Wave?",
       "continent": "Asia",
-      "options": [
-        "Kuwait",
-        "Japan",
-        "Turkey",
-        "Singapore"
-      ],
+      "options": ["South Korea", "Japan", "China", "Thailand"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia uses the LBP currency?",
+      "question": "In which country is the ancient Buddhist kingdom of Srivijaya believed to have been located?",
       "continent": "Asia",
-      "options": [
-        "Lebanon",
-        "Saudi Arabia",
-        "Kuwait",
-        "Azerbaijan"
-      ],
+      "options": ["Indonesia", "Malaysia", "Thailand", "Cambodia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Asia has Arabic as an official language?",
+      "question": "Which country is home to the world's tallest building, the Burj Khalifa?",
       "continent": "Asia",
-      "options": [
-        "Lebanon",
-        "Mongolia",
-        "Japan",
-        "Kyrgyzstan"
-      ],
+      "options": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Kuwait"],
       "correctOptionIndex": 0
     },
     {
-      "question": "In which country are the 'Keukenhof gardens' located?",
+      "question": "Which country is home to the Eiffel Tower?",
       "continent": "Europe",
-      "options": [
-        "Netherlands",
-        "Belgium",
-        "Germany",
-        "France"
-      ],
+      "options": ["France", "Belgium", "Germany", "Italy"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the largest land area in Europe?",
+      "question": "In which country would you find the ancient Colosseum?",
       "continent": "Europe",
-      "options": [
-        "Russia",
-        "England",
-        "Luxembourg",
-        "Ukraine"
-      ],
+      "options": ["Italy", "Greece", "Spain", "Turkey"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the smallest land area in Europe?",
+      "question": "Which country is known for its windmills and tulips?",
       "continent": "Europe",
-      "options": [
-        "Monaco",
-        "Italy",
-        "Romania",
-        "Slovakia"
-      ],
+      "options": ["Netherlands", "Belgium", "Denmark", "Germany"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the largest population in Europe?",
+      "question": "Which country is home to the Acropolis and Parthenon?",
       "continent": "Europe",
-      "options": [
-        "Russia",
-        "Spain",
-        "Andorra",
-        "Bosnia and Herzegovina"
-      ],
+      "options": ["Greece", "Italy", "Turkey", "Cyprus"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the smallest population in Europe?",
+      "question": "Which country is famous for its fjords?",
       "continent": "Europe",
-      "options": [
-        "San Marino",
-        "Greece",
-        "Albania",
-        "Poland"
-      ],
+      "options": ["Norway", "Sweden", "Finland", "Iceland"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe is landlocked?",
+      "question": "In which country would you find Stonehenge?",
       "continent": "Europe",
-      "options": [
-        "Liechtenstein",
-        "Ukraine",
-        "Bosnia and Herzegovina",
-        "Netherlands"
-      ],
+      "options": ["United Kingdom", "Ireland", "France", "Germany"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe uses the EUR currency?",
+      "question": "Which country is home to the Sagrada Familia?",
       "continent": "Europe",
-      "options": [
-        "Belgium",
-        "Switzerland",
-        "Russia",
-        "England"
-      ],
+      "options": ["Spain", "Portugal", "France", "Italy"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe has German as an official language?",
+      "question": "Which country is known for its chocolate and watches?",
       "continent": "Europe",
-      "options": [
-        "Belgium",
-        "Hungary",
-        "Ireland",
-        "Northern Ireland"
-      ],
+      "options": ["Switzerland", "Austria", "Belgium", "Germany"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe uses the EUR currency?",
+      "question": "In which country would you find the Northern Lights most commonly?",
       "continent": "Europe",
-      "options": [
-        "Spain",
-        "Scotland",
-        "Iceland",
-        "Romania"
-      ],
+      "options": ["Iceland", "Norway", "Finland", "Sweden"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe has Spanish as an official language?",
+      "question": "Which country is home to the Brandenburg Gate?",
       "continent": "Europe",
-      "options": [
-        "Spain",
-        "Ireland",
-        "Greece",
-        "Wales"
-      ],
+      "options": ["Germany", "Austria", "Poland", "Czech Republic"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe uses the CHF currency?",
+      "question": "Which country is famous for its flamenco dancing?",
       "continent": "Europe",
-      "options": [
-        "Switzerland",
-        "Italy",
-        "Wales",
-        "Estonia"
-      ],
+      "options": ["Spain", "Portugal", "Italy", "Greece"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe has French as an official language?",
+      "question": "In which country is the ancient city of Dubrovnik located?",
       "continent": "Europe",
-      "options": [
-        "Switzerland",
-        "San Marino",
-        "Malta",
-        "Czechia"
-      ],
+      "options": ["Croatia", "Greece", "Italy", "Slovenia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe uses the CZK currency?",
+      "question": "Which country is home to the Matterhorn mountain?",
       "continent": "Europe",
-      "options": [
-        "Czechia",
-        "Romania",
-        "Spain",
-        "Belarus"
-      ],
+      "options": ["Switzerland", "Austria", "Italy", "France"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe has Czech as an official language?",
+      "question": "Which country is known for its geothermal hot springs and volcanoes?",
       "continent": "Europe",
-      "options": [
-        "Czechia",
-        "San Marino",
-        "Latvia",
-        "Belarus"
-      ],
+      "options": ["Iceland", "Norway", "Finland", "Denmark"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe uses the GBP currency?",
+      "question": "In which country would you find the historic city of Prague?",
       "continent": "Europe",
-      "options": [
-        "Scotland",
-        "Lithuania",
-        "Liechtenstein",
-        "Ukraine"
-      ],
+      "options": ["Czech Republic", "Slovakia", "Hungary", "Poland"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe has English as an official language?",
+      "question": "Which country is home to the Transylvania region?",
       "continent": "Europe",
-      "options": [
-        "Scotland",
-        "Andorra",
-        "Monaco",
-        "Finland"
-      ],
+      "options": ["Romania", "Bulgaria", "Hungary", "Serbia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe uses the NOK currency?",
+      "question": "Which country is famous for its port wine?",
       "continent": "Europe",
-      "options": [
-        "Norway",
-        "Switzerland",
-        "Germany",
-        "Georgia"
-      ],
+      "options": ["Portugal", "Spain", "Italy", "France"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe has Norwegian Nynorsk as an official language?",
+      "question": "In which country is the historic site of Auschwitz located?",
       "continent": "Europe",
-      "options": [
-        "Norway",
-        "San Marino",
-        "Georgia",
-        "Cyprus"
-      ],
+      "options": ["Poland", "Germany", "Czech Republic", "Austria"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe uses the BGN currency?",
+      "question": "Which country is home to the Giant's Causeway?",
       "continent": "Europe",
-      "options": [
-        "Bulgaria",
-        "Estonia",
-        "Luxembourg",
-        "Finland"
-      ],
+      "options": ["United Kingdom", "Ireland", "Scotland", "Wales"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe has Bulgarian as an official language?",
+      "question": "Which country is known for its sauna culture?",
       "continent": "Europe",
-      "options": [
-        "Bulgaria",
-        "Poland",
-        "Iceland",
-        "Malta"
-      ],
+      "options": ["Finland", "Sweden", "Norway", "Estonia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe uses the BAM currency?",
+      "question": "In which country would you find the Alhambra palace?",
       "continent": "Europe",
-      "options": [
-        "Bosnia and Herzegovina",
-        "Ukraine",
-        "North Macedonia",
-        "San Marino"
-      ],
+      "options": ["Spain", "Portugal", "Morocco", "Italy"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe has Bosnian as an official language?",
+      "question": "Which country is home to the Cliffs of Moher?",
       "continent": "Europe",
-      "options": [
-        "Bosnia and Herzegovina",
-        "Croatia",
-        "Ireland",
-        "North Macedonia"
-      ],
+      "options": ["Ireland", "United Kingdom", "Iceland", "Norway"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe uses the ISK currency?",
+      "question": "Which Balkan country is famous for its rose oil production?",
       "continent": "Europe",
-      "options": [
-        "Iceland",
-        "Monaco",
-        "Bosnia and Herzegovina",
-        "Lithuania"
-      ],
+      "options": ["Bulgaria", "Romania", "Greece", "Serbia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe has Icelandic as an official language?",
+      "question": "In which country is the historic city of Krakow located?",
       "continent": "Europe",
-      "options": [
-        "Iceland",
-        "Ireland",
-        "England",
-        "Denmark"
-      ],
+      "options": ["Poland", "Czech Republic", "Slovakia", "Hungary"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe uses the CHF currency?",
+      "question": "Which country is home to the Neuschwanstein Castle?",
       "continent": "Europe",
-      "options": [
-        "Liechtenstein",
-        "Latvia",
-        "England",
-        "Andorra"
-      ],
+      "options": ["Germany", "Austria", "Switzerland", "Czech Republic"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe has German as an official language?",
+      "question": "Which country is known for its Viking heritage and Legoland?",
       "continent": "Europe",
-      "options": [
-        "Liechtenstein",
-        "Netherlands",
-        "Georgia",
-        "Slovenia"
-      ],
+      "options": ["Denmark", "Sweden", "Norway", "Iceland"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe uses the EUR currency?",
+      "question": "In which country would you find the Cinque Terre villages?",
       "continent": "Europe",
-      "options": [
-        "Estonia",
-        "Wales",
-        "Hungary",
-        "Scotland"
-      ],
+      "options": ["Italy", "France", "Spain", "Greece"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe has Estonian as an official language?",
+      "question": "Which country is home to the medieval town of Bruges?",
       "continent": "Europe",
-      "options": [
-        "Estonia",
-        "Slovenia",
-        "Iceland",
-        "Sweden"
-      ],
+      "options": ["Belgium", "Netherlands", "Luxembourg", "Germany"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe uses the EUR currency?",
+      "question": "Which country is famous for its thermal baths in Budapest?",
       "continent": "Europe",
-      "options": [
-        "San Marino",
-        "Iceland",
-        "Albania",
-        "Northern Ireland"
-      ],
+      "options": ["Hungary", "Romania", "Austria", "Czech Republic"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Europe has Italian as an official language?",
+      "question": "In which country is the historic monastery of Meteora located?",
       "continent": "Europe",
-      "options": [
-        "San Marino",
-        "Belarus",
-        "Poland",
-        "Ireland"
-      ],
+      "options": ["Greece", "Bulgaria", "Serbia", "Romania"],
       "correctOptionIndex": 0
     },
     {
-      "question": "In which american city would you find 'The Rockefeller Center'?",
+      "question": "Which country is home to the Grand Canyon?",
       "continent": "NorthAmerica",
-      "options": [
-        "New York City",
-        "Los Angeles",
-        "Chicago",
-        "Houston"
-      ],
+      "options": ["United States", "Mexico", "Canada", "Guatemala"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the largest land area in NorthAmerica?",
+      "question": "In which country would you find Chichen Itza?",
       "continent": "NorthAmerica",
-      "options": [
-        "Canada",
-        "El Salvador",
-        "Barbados",
-        "Belize"
-      ],
+      "options": ["Mexico", "Guatemala", "Belize", "Honduras"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the smallest land area in NorthAmerica?",
+      "question": "Which country is home to Niagara Falls?",
       "continent": "NorthAmerica",
-      "options": [
-        "Saint Kitts and Nevis",
-        "Canada",
-        "Honduras",
-        "Guatemala"
-      ],
+      "options": ["Canada and United States", "United States", "Canada", "Mexico"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the largest population in NorthAmerica?",
+      "question": "Which Caribbean country is known for its Blue Mountain coffee?",
       "continent": "NorthAmerica",
-      "options": [
-        "United States",
-        "Antigua and Barbuda",
-        "Dominica",
-        "Honduras"
-      ],
+      "options": ["Jamaica", "Cuba", "Haiti", "Dominican Republic"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the smallest population in NorthAmerica?",
+      "question": "In which country would you find the ancient Mayan ruins of Tikal?",
       "continent": "NorthAmerica",
-      "options": [
-        "Saint Kitts and Nevis",
-        "Dominican Republic",
-        "Bahamas",
-        "Jamaica"
-      ],
+      "options": ["Guatemala", "Mexico", "Belize", "Honduras"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica uses the CUC currency?",
+      "question": "Which country is home to the Panama Canal?",
       "continent": "NorthAmerica",
-      "options": [
-        "Cuba",
-        "Panama",
-        "Trinidad and Tobago",
-        "Guatemala"
-      ],
+      "options": ["Panama", "Costa Rica", "Nicaragua", "Colombia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica has Spanish as an official language?",
+      "question": "Which country is famous for its cigars and classic cars?",
       "continent": "NorthAmerica",
-      "options": [
-        "Cuba",
-        "Jamaica",
-        "Saint Kitts and Nevis",
-        "Canada"
-      ],
+      "options": ["Cuba", "Jamaica", "Dominican Republic", "Mexico"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica uses the NIO currency?",
+      "question": "In which country would you find Banff National Park?",
       "continent": "NorthAmerica",
-      "options": [
-        "Nicaragua",
-        "Haiti",
-        "Dominica",
-        "Canada"
-      ],
+      "options": ["Canada", "United States", "Mexico", "Alaska"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica has Spanish as an official language?",
+      "question": "Which country is home to the Mayan Riviera?",
       "continent": "NorthAmerica",
-      "options": [
-        "Nicaragua",
-        "United States",
-        "Trinidad and Tobago",
-        "Saint Kitts and Nevis"
-      ],
+      "options": ["Mexico", "Belize", "Guatemala", "Honduras"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica uses the TTD currency?",
+      "question": "Which Central American country has no army?",
       "continent": "NorthAmerica",
-      "options": [
-        "Trinidad and Tobago",
-        "Saint Kitts and Nevis",
-        "Dominican Republic",
-        "Honduras"
-      ],
+      "options": ["Costa Rica", "Panama", "Belize", "Nicaragua"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica has English as an official language?",
+      "question": "In which country would you find the Statue of Liberty?",
       "continent": "NorthAmerica",
-      "options": [
-        "Trinidad and Tobago",
-        "Guatemala",
-        "Mexico",
-        "Costa Rica"
-      ],
+      "options": ["United States", "Canada", "Mexico", "France"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica uses the DOP currency?",
+      "question": "Which country is known for its vibrant Carnival celebration?",
       "continent": "NorthAmerica",
-      "options": [
-        "Dominican Republic",
-        "Panama",
-        "Jamaica",
-        "Honduras"
-      ],
+      "options": ["Haiti", "Dominican Republic", "Jamaica", "Trinidad and Tobago"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica has Spanish as an official language?",
+      "question": "Which country is home to Mount Rushmore?",
       "continent": "NorthAmerica",
-      "options": [
-        "Dominican Republic",
-        "Bahamas",
-        "Dominica",
-        "Grenada"
-      ],
+      "options": ["United States", "Canada", "Mexico", "Greenland"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica uses the USD currency?",
+      "question": "In which country would you find the Copper Canyon?",
       "continent": "NorthAmerica",
-      "options": [
-        "El Salvador",
-        "Grenada",
-        "Dominican Republic",
-        "Guatemala"
-      ],
+      "options": ["Mexico", "United States", "Canada", "Guatemala"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica has Spanish as an official language?",
+      "question": "Which country is famous for its biodiversity and eco-tourism?",
       "continent": "NorthAmerica",
-      "options": [
-        "El Salvador",
-        "Jamaica",
-        "Saint Lucia",
-        "Antigua and Barbuda"
-      ],
+      "options": ["Costa Rica", "Panama", "Belize", "Nicaragua"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica uses the XCD currency?",
+      "question": "In which country is the historic city of Quebec located?",
       "continent": "NorthAmerica",
-      "options": [
-        "Antigua and Barbuda",
-        "Bahamas",
-        "United States",
-        "El Salvador"
-      ],
+      "options": ["Canada", "United States", "France", "Haiti"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica has English as an official language?",
+      "question": "Which island nation is known for its reggae music?",
       "continent": "NorthAmerica",
-      "options": [
-        "Antigua and Barbuda",
-        "Guatemala",
-        "Haiti",
-        "Panama"
-      ],
+      "options": ["Jamaica", "Cuba", "Dominican Republic", "Haiti"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica uses the HTG currency?",
+      "question": "In which country would you find the Golden Gate Bridge?",
       "continent": "NorthAmerica",
-      "options": [
-        "Haiti",
-        "Barbados",
-        "Belize",
-        "Panama"
-      ],
+      "options": ["United States", "Canada", "Mexico", "Panama"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica has French as an official language?",
+      "question": "Which country is home to the ancient city of Teotihuacan?",
       "continent": "NorthAmerica",
-      "options": [
-        "Haiti",
-        "Jamaica",
-        "Grenada",
-        "Saint Lucia"
-      ],
+      "options": ["Mexico", "Guatemala", "Belize", "Honduras"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica uses the PAB currency?",
+      "question": "Which country shares the island of Hispaniola with Haiti?",
       "continent": "NorthAmerica",
-      "options": [
-        "Panama",
-        "Bahamas",
-        "El Salvador",
-        "Dominican Republic"
-      ],
+      "options": ["Dominican Republic", "Cuba", "Jamaica", "Puerto Rico"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica has Spanish as an official language?",
+      "question": "In which country would you find Yellowstone National Park?",
       "continent": "NorthAmerica",
-      "options": [
-        "Panama",
-        "Saint Lucia",
-        "Trinidad and Tobago",
-        "Haiti"
-      ],
+      "options": ["United States", "Canada", "Mexico", "Costa Rica"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica uses the HNL currency?",
+      "question": "Which country is famous for its maple syrup production?",
       "continent": "NorthAmerica",
-      "options": [
-        "Honduras",
-        "Panama",
-        "Cuba",
-        "Trinidad and Tobago"
-      ],
+      "options": ["Canada", "United States", "Mexico", "Vermont"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica has Spanish as an official language?",
+      "question": "In which country is the Great Barrier Reef of the Caribbean located?",
       "continent": "NorthAmerica",
-      "options": [
-        "Honduras",
-        "Saint Kitts and Nevis",
-        "United States",
-        "Bahamas"
-      ],
+      "options": ["Belize", "Mexico", "Honduras", "Guatemala"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica uses the BBD currency?",
+      "question": "Which country is home to the Arenal Volcano?",
       "continent": "NorthAmerica",
-      "options": [
-        "Barbados",
-        "Saint Lucia",
-        "Jamaica",
-        "Dominican Republic"
-      ],
+      "options": ["Costa Rica", "Nicaragua", "Guatemala", "El Salvador"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica has English as an official language?",
+      "question": "Which Caribbean country is the smallest independent nation in the Western Hemisphere?",
       "continent": "NorthAmerica",
-      "options": [
-        "Barbados",
-        "El Salvador",
-        "Mexico",
-        "Costa Rica"
-      ],
+      "options": ["Saint Kitts and Nevis", "Barbados", "Grenada", "Antigua and Barbuda"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica uses the JMD currency?",
+      "question": "In which country would you find Lake Louise?",
       "continent": "NorthAmerica",
-      "options": [
-        "Jamaica",
-        "El Salvador",
-        "Honduras",
-        "Barbados"
-      ],
+      "options": ["Canada", "United States", "Mexico", "Greenland"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica has English as an official language?",
+      "question": "Which country is famous for its Day of the Dead celebrations?",
       "continent": "NorthAmerica",
-      "options": [
-        "Jamaica",
-        "Mexico",
-        "Costa Rica",
-        "El Salvador"
-      ],
+      "options": ["Mexico", "Guatemala", "El Salvador", "Honduras"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica uses the CRC currency?",
+      "question": "In which country is the world's second-longest barrier reef located?",
       "continent": "NorthAmerica",
-      "options": [
-        "Costa Rica",
-        "Dominican Republic",
-        "Bahamas",
-        "Antigua and Barbuda"
-      ],
+      "options": ["Belize", "Mexico", "Honduras", "Guatemala"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica has Spanish as an official language?",
+      "question": "Which country is home to the CN Tower?",
       "continent": "NorthAmerica",
-      "options": [
-        "Costa Rica",
-        "Grenada",
-        "Haiti",
-        "Barbados"
-      ],
+      "options": ["Canada", "United States", "Mexico", "Panama"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in NorthAmerica uses the USD currency?",
+      "question": "Which Central American country is named after the Spanish word for 'The Savior'?",
       "continent": "NorthAmerica",
-      "options": [
-        "United States",
-        "Saint Kitts and Nevis",
-        "Antigua and Barbuda",
-        "Belize"
-      ],
+      "options": ["El Salvador", "Guatemala", "Honduras", "Nicaragua"],
       "correctOptionIndex": 0
     },
     {
-      "question": "The highest peak of south america 'Mount Aconcagua' is in ...?",
+      "question": "Which country is home to Machu Picchu?",
       "continent": "SouthAmerica",
-      "options": [
-        "Argentina",
-        "Brazil",
-        "Chile",
-        "Peru"
-      ],
+      "options": ["Peru", "Bolivia", "Ecuador", "Chile"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the largest land area in SouthAmerica?",
+      "question": "Which country is home to the Amazon Rainforest's largest portion?",
       "continent": "SouthAmerica",
-      "options": [
-        "Brazil",
-        "Bolivia",
-        "Venezuela",
-        "Argentina"
-      ],
+      "options": ["Brazil", "Peru", "Colombia", "Venezuela"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the smallest land area in SouthAmerica?",
+      "question": "In which country would you find Angel Falls, the world's highest waterfall?",
       "continent": "SouthAmerica",
-      "options": [
-        "Suriname",
-        "Venezuela",
-        "Uruguay",
-        "Guyana"
-      ],
+      "options": ["Venezuela", "Colombia", "Guyana", "Brazil"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the largest population in SouthAmerica?",
+      "question": "Which country is home to the Galapagos Islands?",
       "continent": "SouthAmerica",
-      "options": [
-        "Brazil",
-        "Ecuador",
-        "Peru",
-        "Paraguay"
-      ],
+      "options": ["Ecuador", "Peru", "Colombia", "Chile"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the smallest population in SouthAmerica?",
+      "question": "Which country is famous for tango dancing?",
       "continent": "SouthAmerica",
-      "options": [
-        "Suriname",
-        "Ecuador",
-        "Peru",
-        "Uruguay"
-      ],
+      "options": ["Argentina", "Uruguay", "Brazil", "Chile"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica is landlocked?",
+      "question": "In which country would you find the Atacama Desert?",
       "continent": "SouthAmerica",
-      "options": [
-        "Paraguay",
-        "Uruguay",
-        "Chile",
-        "Ecuador"
-      ],
+      "options": ["Chile", "Peru", "Argentina", "Bolivia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica uses the COP currency?",
+      "question": "Which country is home to the Iguazu Falls?",
       "continent": "SouthAmerica",
-      "options": [
-        "Colombia",
-        "Bolivia",
-        "Chile",
-        "Brazil"
-      ],
+      "options": ["Argentina and Brazil", "Paraguay", "Uruguay", "Bolivia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica has Spanish as an official language?",
+      "question": "Which country is known for its emerald production?",
       "continent": "SouthAmerica",
-      "options": [
-        "Colombia",
-        "Brazil",
-        "Suriname",
-        "Guyana"
-      ],
+      "options": ["Colombia", "Brazil", "Peru", "Venezuela"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica uses the BOB currency?",
+      "question": "In which country would you find the Salar de Uyuni, the world's largest salt flat?",
       "continent": "SouthAmerica",
-      "options": [
-        "Bolivia",
-        "Venezuela",
-        "Argentina",
-        "Chile"
-      ],
+      "options": ["Bolivia", "Chile", "Argentina", "Peru"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica has Aymara as an official language?",
+      "question": "Which country is home to Easter Island?",
       "continent": "SouthAmerica",
-      "options": [
-        "Bolivia",
-        "Uruguay",
-        "Argentina",
-        "Colombia"
-      ],
+      "options": ["Chile", "Peru", "Ecuador", "Argentina"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica uses the USD currency?",
+      "question": "Which country is the only English-speaking country in South America?",
       "continent": "SouthAmerica",
-      "options": [
-        "Ecuador",
-        "Peru",
-        "Guyana",
-        "Brazil"
-      ],
+      "options": ["Guyana", "Suriname", "French Guiana", "Brazil"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica has Spanish as an official language?",
+      "question": "In which country would you find Lake Titicaca?",
       "continent": "SouthAmerica",
-      "options": [
-        "Ecuador",
-        "Suriname",
-        "Brazil",
-        "Guyana"
-      ],
+      "options": ["Peru and Bolivia", "Chile", "Argentina", "Ecuador"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica uses the VES currency?",
+      "question": "Which country is famous for its Carnival celebration in Rio?",
       "continent": "SouthAmerica",
-      "options": [
-        "Venezuela",
-        "Suriname",
-        "Uruguay",
-        "Paraguay"
-      ],
+      "options": ["Brazil", "Argentina", "Colombia", "Venezuela"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica has Spanish as an official language?",
+      "question": "Which country is home to Patagonia?",
       "continent": "SouthAmerica",
-      "options": [
-        "Venezuela",
-        "Suriname",
-        "Brazil",
-        "Guyana"
-      ],
+      "options": ["Argentina and Chile", "Uruguay", "Brazil", "Peru"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica uses the GYD currency?",
+      "question": "In which country is the historic city of Cartagena located?",
       "continent": "SouthAmerica",
-      "options": [
-        "Guyana",
-        "Ecuador",
-        "Brazil",
-        "Uruguay"
-      ],
+      "options": ["Colombia", "Venezuela", "Ecuador", "Peru"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica has English as an official language?",
+      "question": "Which country is known for its wine production in the Mendoza region?",
       "continent": "SouthAmerica",
-      "options": [
-        "Guyana",
-        "Venezuela",
-        "Ecuador",
-        "Uruguay"
-      ],
+      "options": ["Argentina", "Chile", "Uruguay", "Brazil"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica uses the PYG currency?",
+      "question": "In which country would you find the Pantanal, the world's largest tropical wetland?",
       "continent": "SouthAmerica",
-      "options": [
-        "Paraguay",
-        "Bolivia",
-        "Brazil",
-        "Guyana"
-      ],
+      "options": ["Brazil", "Paraguay", "Bolivia", "Argentina"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica has Guaraní as an official language?",
+      "question": "Which country is home to the ancient Nazca Lines?",
       "continent": "SouthAmerica",
-      "options": [
-        "Paraguay",
-        "Chile",
-        "Brazil",
-        "Guyana"
-      ],
+      "options": ["Peru", "Chile", "Bolivia", "Ecuador"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica uses the UYU currency?",
+      "question": "Which country is the smallest in South America?",
       "continent": "SouthAmerica",
-      "options": [
-        "Uruguay",
-        "Argentina",
-        "Colombia",
-        "Paraguay"
-      ],
+      "options": ["Suriname", "Guyana", "Uruguay", "French Guiana"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica has Spanish as an official language?",
+      "question": "In which country would you find Torres del Paine National Park?",
       "continent": "SouthAmerica",
-      "options": [
-        "Uruguay",
-        "Suriname",
-        "Brazil",
-        "Guyana"
-      ],
+      "options": ["Chile", "Argentina", "Peru", "Bolivia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica uses the BRL currency?",
+      "question": "Which country is famous for its coffee production in the Andes?",
       "continent": "SouthAmerica",
-      "options": [
-        "Brazil",
-        "Paraguay",
-        "Venezuela",
-        "Peru"
-      ],
+      "options": ["Colombia", "Brazil", "Peru", "Ecuador"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica has Portuguese as an official language?",
+      "question": "Which country is home to Mount Aconcagua, the highest peak in South America?",
       "continent": "SouthAmerica",
-      "options": [
-        "Brazil",
-        "Venezuela",
-        "Peru",
-        "Suriname"
-      ],
+      "options": ["Argentina", "Chile", "Peru", "Bolivia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica uses the PEN currency?",
+      "question": "In which country would you find the Orinoco River?",
       "continent": "SouthAmerica",
-      "options": [
-        "Peru",
-        "Uruguay",
-        "Chile",
-        "Colombia"
-      ],
+      "options": ["Venezuela", "Colombia", "Brazil", "Guyana"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica has Aymara as an official language?",
+      "question": "Which country is known for its Dutch colonial architecture in Paramaribo?",
       "continent": "SouthAmerica",
-      "options": [
-        "Peru",
-        "Argentina",
-        "Chile",
-        "Ecuador"
-      ],
+      "options": ["Suriname", "Guyana", "French Guiana", "Brazil"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica uses the SRD currency?",
+      "question": "In which country is the historic city of Cusco located?",
       "continent": "SouthAmerica",
-      "options": [
-        "Suriname",
-        "Venezuela",
-        "Paraguay",
-        "Guyana"
-      ],
+      "options": ["Peru", "Bolivia", "Ecuador", "Colombia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica has Dutch as an official language?",
+      "question": "Which country is home to the Perito Moreno Glacier?",
       "continent": "SouthAmerica",
-      "options": [
-        "Suriname",
-        "Colombia",
-        "Uruguay",
-        "Peru"
-      ],
+      "options": ["Argentina", "Chile", "Peru", "Bolivia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica uses the ARS currency?",
+      "question": "Which country is famous for its pampas grasslands?",
       "continent": "SouthAmerica",
-      "options": [
-        "Argentina",
-        "Guyana",
-        "Chile",
-        "Suriname"
-      ],
+      "options": ["Argentina", "Uruguay", "Brazil", "Paraguay"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica has Guaraní as an official language?",
+      "question": "In which country would you find the Cotopaxi volcano?",
       "continent": "SouthAmerica",
-      "options": [
-        "Argentina",
-        "Suriname",
-        "Colombia",
-        "Uruguay"
-      ],
+      "options": ["Ecuador", "Colombia", "Peru", "Chile"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica uses the CLP currency?",
+      "question": "Which country is known for its unique wildlife in the Falkland Islands?",
       "continent": "SouthAmerica",
-      "options": [
-        "Chile",
-        "Bolivia",
-        "Guyana",
-        "Colombia"
-      ],
+      "options": ["United Kingdom (territory)", "Argentina", "Chile", "Uruguay"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in SouthAmerica has Spanish as an official language?",
+      "question": "In which country would you find the historic quarter of Colonia del Sacramento?",
       "continent": "SouthAmerica",
-      "options": [
-        "Chile",
-        "Brazil",
-        "Guyana",
-        "Suriname"
-      ],
+      "options": ["Uruguay", "Argentina", "Paraguay", "Brazil"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which pacific republic includes the Gilbert islands, Lime islands and the volcanic island of Banaba?",
+      "question": "Which country is home to the Great Barrier Reef?",
       "continent": "Oceania",
-      "options": [
-        "Kiribati",
-        "Marshall Islands",
-        "Micronesia",
-        "Nauru"
-      ],
+      "options": ["Australia", "New Zealand", "Papua New Guinea", "Fiji"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the largest land area in Oceania?",
+      "question": "In which country would you find the Sydney Opera House?",
       "continent": "Oceania",
-      "options": [
-        "Australia",
-        "Tonga",
-        "Kiribati",
-        "Marshall Islands"
-      ],
+      "options": ["Australia", "New Zealand", "Fiji", "Samoa"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the smallest land area in Oceania?",
+      "question": "Which country is famous for its Maori culture?",
       "continent": "Oceania",
-      "options": [
-        "Nauru",
-        "Solomon Islands",
-        "Vanuatu",
-        "Samoa"
-      ],
+      "options": ["New Zealand", "Australia", "Papua New Guinea", "Fiji"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the largest population in Oceania?",
+      "question": "Which country is home to Mount Cook, the highest peak in its territory?",
       "continent": "Oceania",
-      "options": [
-        "Australia",
-        "Samoa",
-        "Micronesia",
-        "Vanuatu"
-      ],
+      "options": ["New Zealand", "Australia", "Papua New Guinea", "Fiji"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country has the smallest population in Oceania?",
+      "question": "In which country would you find Uluru (Ayers Rock)?",
       "continent": "Oceania",
-      "options": [
-        "Tuvalu",
-        "Solomon Islands",
-        "Kiribati",
-        "Papua New Guinea"
-      ],
+      "options": ["Australia", "New Zealand", "Papua New Guinea", "Vanuatu"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania uses the FJD currency?",
+      "question": "Which country is home to over 800 different languages?",
       "continent": "Oceania",
-      "options": [
-        "Fiji",
-        "Australia",
-        "Samoa",
-        "Micronesia"
-      ],
+      "options": ["Papua New Guinea", "Indonesia", "Philippines", "Australia"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania has English as an official language?",
+      "question": "Which country is famous for its geothermal areas and geysers?",
       "continent": "Oceania",
-      "options": [
-        "Fiji"
-      ],
+      "options": ["New Zealand", "Australia", "Vanuatu", "Fiji"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania uses the AUD currency?",
+      "question": "In which country would you find the Milford Sound?",
       "continent": "Oceania",
-      "options": [
-        "Tuvalu",
-        "Marshall Islands",
-        "Solomon Islands",
-        "Fiji"
-      ],
+      "options": ["New Zealand", "Australia", "Fiji", "Samoa"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania has English as an official language?",
+      "question": "Which country is home to the largest coral reef system in the world?",
       "continent": "Oceania",
-      "options": [
-        "Tuvalu"
-      ],
+      "options": ["Australia", "Papua New Guinea", "Fiji", "Solomon Islands"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania uses the VUV currency?",
+      "question": "Which island nation is known for its rugby prowess and haka dance?",
       "continent": "Oceania",
-      "options": [
-        "Vanuatu",
-        "Marshall Islands",
-        "Kiribati",
-        "Australia"
-      ],
+      "options": ["New Zealand", "Fiji", "Tonga", "Samoa"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania has Bislama as an official language?",
+      "question": "In which country would you find the Outback?",
       "continent": "Oceania",
-      "options": [
-        "Vanuatu",
-        "Marshall Islands",
-        "Tuvalu",
-        "Fiji"
-      ],
+      "options": ["Australia", "New Zealand", "Papua New Guinea", "Vanuatu"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania uses the AUD currency?",
+      "question": "Which country is home to the Blue Lagoon?",
       "continent": "Oceania",
-      "options": [
-        "Nauru",
-        "Micronesia",
-        "Marshall Islands",
-        "Papua New Guinea"
-      ],
+      "options": ["Fiji", "Vanuatu", "New Caledonia", "Samoa"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania has English as an official language?",
+      "question": "Which country is famous for its beaches on the Gold Coast?",
       "continent": "Oceania",
-      "options": [
-        "Nauru"
-      ],
+      "options": ["Australia", "New Zealand", "Fiji", "Tonga"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania uses the NZD currency?",
+      "question": "In which country would you find the Waitomo Glowworm Caves?",
       "continent": "Oceania",
-      "options": [
-        "New Zealand",
-        "Nauru",
-        "Samoa",
-        "Solomon Islands"
-      ],
+      "options": ["New Zealand", "Australia", "Papua New Guinea", "Fiji"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania has English as an official language?",
+      "question": "Which country consists of over 300 islands?",
       "continent": "Oceania",
-      "options": [
-        "New Zealand"
-      ],
+      "options": ["Fiji", "Tonga", "Solomon Islands", "Vanuatu"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania uses the USD currency?",
+      "question": "In which country would you find the Twelve Apostles rock formations?",
       "continent": "Oceania",
-      "options": [
-        "Marshall Islands",
-        "Vanuatu",
-        "Papua New Guinea",
-        "Samoa"
-      ],
+      "options": ["Australia", "New Zealand", "Papua New Guinea", "Fiji"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania has English as an official language?",
+      "question": "Which country is home to active volcanoes on the North Island?",
       "continent": "Oceania",
-      "options": [
-        "Marshall Islands"
-      ],
+      "options": ["New Zealand", "Vanuatu", "Papua New Guinea", "Fiji"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania uses the USD currency?",
+      "question": "Which country is known for its unique wildlife including kangaroos and koalas?",
       "continent": "Oceania",
-      "options": [
-        "Micronesia",
-        "Fiji",
-        "Solomon Islands",
-        "Tuvalu"
-      ],
+      "options": ["Australia", "New Zealand", "Papua New Guinea", "Tasmania"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania has English as an official language?",
+      "question": "In which country is the ancient city of Nan Madol located?",
       "continent": "Oceania",
-      "options": [
-        "Micronesia"
-      ],
+      "options": ["Micronesia", "Palau", "Marshall Islands", "Kiribati"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania uses the TOP currency?",
+      "question": "Which country is home to the Franz Josef Glacier?",
       "continent": "Oceania",
-      "options": [
-        "Tonga",
-        "Papua New Guinea",
-        "Vanuatu",
-        "Solomon Islands"
-      ],
+      "options": ["New Zealand", "Australia", "Papua New Guinea", "Fiji"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania has English as an official language?",
+      "question": "Which island nation is known for its traditional tattoo culture?",
       "continent": "Oceania",
-      "options": [
-        "Tonga"
-      ],
+      "options": ["Samoa", "Tonga", "Fiji", "New Zealand"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania uses the AUD currency?",
+      "question": "In which country would you find the Daintree Rainforest?",
       "continent": "Oceania",
-      "options": [
-        "Australia",
-        "New Zealand",
-        "Samoa",
-        "Tonga"
-      ],
+      "options": ["Australia", "Papua New Guinea", "New Zealand", "Fiji"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania has English as an official language?",
+      "question": "Which country is famous for bungee jumping, invented in Queenstown?",
       "continent": "Oceania",
-      "options": [
-        "Australia"
-      ],
+      "options": ["New Zealand", "Australia", "Fiji", "Vanuatu"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania uses the USD currency?",
+      "question": "Which country is home to the Yasur volcano, one of the most accessible active volcanoes?",
       "continent": "Oceania",
-      "options": [
-        "Palau",
-        "Tuvalu",
-        "Nauru",
-        "Papua New Guinea"
-      ],
+      "options": ["Vanuatu", "Papua New Guinea", "Solomon Islands", "Fiji"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania has English as an official language?",
+      "question": "In which country would you find Lake Taupo?",
       "continent": "Oceania",
-      "options": [
-        "Palau"
-      ],
+      "options": ["New Zealand", "Australia", "Fiji", "Papua New Guinea"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania uses the AUD currency?",
+      "question": "Which country is known for its pearl farming industry?",
       "continent": "Oceania",
-      "options": [
-        "Kiribati",
-        "Micronesia",
-        "Palau",
-        "New Zealand"
-      ],
+      "options": ["French Polynesia", "Fiji", "Cook Islands", "Samoa"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania has English as an official language?",
+      "question": "In which country is the famous Bondi Beach located?",
       "continent": "Oceania",
-      "options": [
-        "Kiribati"
-      ],
+      "options": ["Australia", "New Zealand", "Fiji", "Samoa"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania uses the PGK currency?",
+      "question": "Which country is home to the Hobbiton movie set?",
       "continent": "Oceania",
-      "options": [
-        "Papua New Guinea",
-        "Marshall Islands",
-        "Tuvalu",
-        "New Zealand"
-      ],
+      "options": ["New Zealand", "Australia", "Fiji", "Papua New Guinea"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania has English as an official language?",
+      "question": "Which Polynesian country is famous for its overwater bungalows?",
       "continent": "Oceania",
-      "options": [
-        "Papua New Guinea"
-      ],
+      "options": ["French Polynesia", "Fiji", "Samoa", "Cook Islands"],
       "correctOptionIndex": 0
     },
     {
-      "question": "Which country in Oceania uses the WST currency?",
+      "question": "In which country would you find the Pinnacles Desert?",
       "continent": "Oceania",
-      "options": [
-        "Samoa",
-        "Palau",
-        "Marshall Islands",
-        "Nauru"
-      ],
+      "options": ["Australia", "New Zealand", "Papua New Guinea", "Vanuatu"],
       "correctOptionIndex": 0
     }
   ]
